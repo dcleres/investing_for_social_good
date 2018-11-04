@@ -19,12 +19,14 @@ Furthermore, it could be interesting to correlate the great public's interest in
 - Can we extend the project to other countries in other to build a global social good investement chart? 
 
 # Dataset
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
+List the datasets containing the information needed to answer the above mentionned questions: 
 
 - [The news][https://www.kaggle.com/snapcrack/all-the-news/home]
 
-- [SEC asset manager portfolios][]
+- [SEC asset manager portfolios][https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent]
 - Twitter : 1% of the tweets of 2017 
+
+Once the projet topic was chose, the group sent a considerable amount of time to look at the quality of the data. For the members, it was important to make sure that the time allocated to the project will be spend on data science and information extraction and not data cleaning! We found some libraries to generates a .csv-like file listing by company and date the URLs in the SEC archives where the investment portfolios are stored (https://github.com/edouardswiac/python-edgar). Regading the dataset on kaggle, we took a closer look to the comments made about the data and we found no issues. The twitter data is a dataset provided by the course so we are confident that there should not be too many insolvable issues and the data does not look *too bad*. 
 
 # A list of internal milestones up until project milestone 2
 - Milestone 1 (M1) 
