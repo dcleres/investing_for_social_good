@@ -23,7 +23,7 @@ List the dataset(s) you want to use, and some ideas on how do you expect to get,
 
 - [The news][https://www.kaggle.com/snapcrack/all-the-news/home]
 
-- [SEC asset manager portfolios][]
+- [SEC asset manager portfolios][https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent]
 - Twitter : 1% of the tweets of 2017 
 
 # A list of internal milestones up until project milestone 2
