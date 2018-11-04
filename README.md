@@ -5,7 +5,7 @@
 
 Asset managers are increasingly challenged by their investors to manage their portfolios for social impact. However, it is non-trivial for investors and investment managers to maintain regular oversight over the social impact composition of their portfolios. The U.S. Securities and Exchange Commission’s (SEC’s) EDGAR maintains a digital record of the portfolio filings of publicly traded asset managers. All the News is a Kaggle dataset of news articles primarily from 2016 to 2017. 
 
-Furthermore, it could be interesting to correlate the great public's interest into social good project expressed on social media like Twitter, Facebook or the news with the actual investments that are done. 
+Furthermore, it could be interesting to correlate the greater public's interest into social good projects expressed on social media platforms such as Twitter and Facebook, or news platforms, with the actual investments that are done. 
 
 # Research questions
 - How to map news article sentiments to specific investments held by companies?
@@ -14,7 +14,7 @@ Furthermore, it could be interesting to correlate the great public's interest in
 
 - What asset managers have the portfolios with the greatest/least social impact?
 - What is the great public's opinion regarding the companies that held many investments in social good versus those who do not invest in social good? 
-  - How to make a raking of “public opinion” regarding a company? 
+  - How to make a ranking of “public opinion” regarding a company? 
 - Was there a transition toward investing more into social good then into other projects? If yes, when did it happen? 
 - Can we extend the project to other countries in other to build a global social good investment chart? 
 
@@ -28,7 +28,7 @@ List the datasets containing the information needed to answer the above mentione
 
 Once the project topic was chosen, the group spent a considerable amount of time to look at the quality of the data. For the members, it was important to make sure that the time allocated to the project will be spent on data science and information extraction and not data cleaning.
 
-We found some libraries to generates a .csv-like file listing by the company and date the URLs in the SEC archives where the investment portfolios are stored (https://github.com/edouardswiac/python-edgar). For example, we will search data about investment in all the different fields to see how many of them are done in Social Good. 
+We found some libraries to generate a .csv-like file listing, by the company and date, the URLs in the SEC's archives where the investment portfolio filings are stored (https://github.com/edouardswiac/python-edgar) as consistently structured text and html table data. We will be able to programatically extract the type and scope of different types of asset manager investment holdings (what companies they are invested in, and the size and value of each investment). This data can be enriched by processing additional news and social data related to portfolio companies into signals of their social impact, and mapping these social impact signals to invesetment portfolios. Based on this data from investment portfolio filings, we will be able to identify and analyze investments made in companies that pursue goals related to social good from all different types of industries. 
 
 Regarding the dataset on kaggle, we took a closer look to the comments made about the data and we found no issues. Moreover, the download of the 3 csv files was done. The structure is well defined with several columns (title, publication, author, data, year, month, url, content). The size of the dataset is small. 
 
