@@ -32,6 +32,10 @@ Once the project topic was chosen, the group spent a considerable amount of time
 - Milestone 1 (M1) 
   - Download the required data
   - Set up the Git and Project plan
+- Prepare Milestone 2 
+  - Comment and debug the code
+  - Learn from the mistakes made in M1
+  - Set clear goals and plans for the next milestone.
 - Week 1 - Data Exploration
   - Clean and organize our data
   - NaN values, how can we deal with bots and spam etc. (Read papers that might give us interesting insights)
@@ -46,10 +50,7 @@ Once the project topic was chosen, the group spent a considerable amount of time
 - Week 3 - Wrapping up 
   - Process and perform a detailed analysis of the news and SEC datasets, filtering out the relevant data and understand how to combine the two datasets with the information on Twitter for instance.
   - Find trends in the data regarding the social opinion to the investors and correlate it with the findings regarding the investments done by companies. 
-- Prepare Milestone 2 
-  - Comment and debug the code
-  - Learn from the mistakes made in M1
-  - Set clear goals and plans for the next milestone.
+
 
 #### Questions for TA's
 
