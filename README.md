@@ -21,12 +21,12 @@ Furthermore, it could be interesting to correlate the great public's interest in
 # Dataset
 List the datasets containing the information needed to answer the above mentioned questions: 
 
-- [The news][https://www.kaggle.com/snapcrack/all-the-news/home]
+- [The news][https://www.kaggle.com/snapcrack/all-the-news/home] (253 MB)
 
 - [SEC asset manager portfolios][https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent]
 - Twitter : 1% of the tweets of 2017 
 
-Once the project topic was chosen, the group spent a considerable amount of time to look at the quality of the data. For the members, it was important to make sure that the time allocated to the project will be spent on data science and information extraction and not data cleaning! We found some libraries to generates a .csv-like file listing by the company and date the URLs in the SEC archives where the investment portfolios are stored (https://github.com/edouardswiac/python-edgar). Regarding the dataset on kaggle, we took a closer look to the comments made about the data and we found no issues. The Twitter data is a dataset provided by the course so we are confident that there should not be too many insolvable issues and the data does not look *too bad*. 
+Once the project topic was chosen, the group spent a considerable amount of time to look at the quality of the data. For the members, it was important to make sure that the time allocated to the project will be spent on data science and information extraction and not data cleaning! We found some libraries to generates a .csv-like file listing by the company and date the URLs in the SEC archives where the investment portfolios are stored (https://github.com/edouardswiac/python-edgar). Regarding the dataset on kaggle, we took a closer look to the comments made about the data and we found no issues. Moreover, we download the 3 csv files and look at the data which is clean and easy to use. The structure is well defined with several columns (title, publication, author, data, year, month, url, content). The size of the dataset is small. The Twitter data is a dataset provided by the course so we are confident that there should not be too many insolvable issues and the data does not look *too bad*. We look at the documentation of Twitter API to see how to use this database.
 
 # A list of internal milestones up until project milestone 2
 - Milestone 1 (M1) 
