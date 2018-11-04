@@ -26,7 +26,9 @@ List the datasets containing the information needed to answer the above mentione
 - [SEC asset manager portfolios][https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent]
 - Twitter : 1% of the tweets of 2017 
 
-Once the project topic was chosen, the group spent a considerable amount of time to look at the quality of the data. For the members, it was important to make sure that the time allocated to the project will be spent on data science and information extraction and not data cleaning! We found some libraries to generates a .csv-like file listing by the company and date the URLs in the SEC archives where the investment portfolios are stored (https://github.com/edouardswiac/python-edgar). For example, we will search data about investment in all the different fields to see how many of them are done in Social Good. 
+Once the project topic was chosen, the group spent a considerable amount of time to look at the quality of the data. For the members, it was important to make sure that the time allocated to the project will be spent on data science and information extraction and not data cleaning.
+
+We found some libraries to generates a .csv-like file listing by the company and date the URLs in the SEC archives where the investment portfolios are stored (https://github.com/edouardswiac/python-edgar). For example, we will search data about investment in all the different fields to see how many of them are done in Social Good. 
 
 Regarding the dataset on kaggle, we took a closer look to the comments made about the data and we found no issues. Moreover, the download of the 3 csv files was done. The structure is well defined with several columns (title, publication, author, data, year, month, url, content). The size of the dataset is small. 
 
