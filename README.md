@@ -51,7 +51,7 @@ Once the projet topic was chosen, the group spent a considerable amount of time 
   - learn from the mistakes made in M1
   - Set clear goals and plans for the next milestone.
 
-#### Questions for TAa
+#### Questions for TA's
 
 - What technologies do professional data blogs like FiveThirtyEight use for visualisation?
 - Is the content we have enough to make a project?
