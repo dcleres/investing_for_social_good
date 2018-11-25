@@ -33,7 +33,7 @@ Regarding the dataset on kaggle, we took a closer look to the comments made abou
 The Twitter data is a dataset provided by the course so we are confident that there should not be too many insolvable issues and the data does not look *too bad*. The documentation of Twitter API was analyzed to understand how to use this database. First, determination of a dictionary of keywords linked to our subject will be done (and possibly Machine Learning algorithms will be used to broaden it throughout work process). Finally, the tweets will be filtered thanks to the buolt dictionary in order to construct the dataset of interest.
 
 # A list of internal milestones up until project milestone 2
-- Milestone 1 (M1) 
+- **Milestone 1 (MS1)** 
   - Task Group 0
     - [x] Download the required data
     - [x] Set up the Git and Project plan
@@ -55,10 +55,13 @@ The Twitter data is a dataset provided by the course so we are confident that th
   - Task Group 3 - Wrapping up MS1  
     - [ ] Process and perform a detailed analysis of the news and SEC datasets, filtering out the relevant data and understand how to combine the two datasets with the information on Twitter for instance.
     - [ ] Find trends in the data regarding the social opinion to the investors and correlate it with the findings regarding the investments done by companies. 
+    
+- **Milestone 2 (MS2)**
+  - Feedback from MS1: 
   
 #### Questions for TA's
 
-- What technologies do professional data blogs like FiveThirtyEight use for visualization?
+- What technologies do professional data blogs like FiveThirtyEight use for visualization?\
     **ANSWER** : *For fancy visualisation, you can use D3.js, for simple one you can use some wrappers of D3.js (C3.js)* 
-- Is the content we have enough to make a project?
+- Is the content we have enough to make a project?\
     **ANSWER** :  *You seem to have enough content for now. Once you start exploring the dataset you can reiterate on your research questions and refine them if needed.*
