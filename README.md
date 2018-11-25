@@ -45,7 +45,7 @@ The Twitter data is a dataset provided by the course so we are confident that th
 - Prepare Milestone 2 
   - [x] Comment and debug the code : *Through the homeworks, we learnt how to work together as a team of 3 students. Throughout this learning process we also learnt which comments in the code are useful for the other members of the team and which comments were not that usefull. Obviously, this process is not over but we got way better than in week 1.*
   - [x] Learn from the mistakes made in M1
-  - [x] Set clear goals and plans for the next milestone : *see [here]((https://github.com/dcleres/investing_for_social_good/projects/1)*
+  - [x] Set clear goals and plans for the next milestone : *see [here](https://github.com/dcleres/investing_for_social_good/projects/1)*
 - Task Group 1 - Data Exploration
   - [x] Clean and organize our data
   - [x] NaN values, how can we deal with bots and spam etc. (Read papers that might give us interesting insights)
