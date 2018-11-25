@@ -59,6 +59,6 @@ The Twitter data is a dataset provided by the course so we are confident that th
 #### Questions for TA's
 
 - What technologies do professional data blogs like FiveThirtyEight use for visualization?
-**ANSWER** : *For fancy visualisation, you can use D3.js, for simple one you can use some wrappers of D3.js (C3.js)* 
+    **ANSWER** : *For fancy visualisation, you can use D3.js, for simple one you can use some wrappers of D3.js (C3.js)* 
 - Is the content we have enough to make a project?
-**ANSWER** :  *You seem to have enough content for now. Once you start exploring the dataset you can reiterate on your research questions and refine them if needed.*
+    **ANSWER** :  *You seem to have enough content for now. Once you start exploring the dataset you can reiterate on your research questions and refine them if needed.*
