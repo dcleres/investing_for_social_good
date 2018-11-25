@@ -34,29 +34,31 @@ The Twitter data is a dataset provided by the course so we are confident that th
 
 # A list of internal milestones up until project milestone 2
 - Milestone 1 (M1) 
-  - Download the required data
-  - Set up the Git and Project plan
-- Prepare Milestone 2 
-  - Comment and debug the code
-  - Learn from the mistakes made in M1
-  - Set clear goals and plans for the next milestone.
-- Week 1 - Data Exploration
-  - Clean and organize our data
-  - NaN values, how can we deal with bots and spam etc. (Read papers that might give us interesting insights)
-  - Establish a process for performing tests and evaluations on smaller parts of the dataset and understanding to what extent we will need to work within the frameworks of the cluster
-  - Understand how the cluster works
-- Week 2 - Data Exploitation
-  - Explore data visualization possibilities
-  - Decide which visualizations formats serve the best our purpose.
-  - Simple Natural Language Processing (NLP) methods (LSI, pLSI, LDA and VSM using lemmatization, stemming and n-grams) to perform analysis on the Twitter dataset.
-    - Determine a dictionary of keywords linked to emotion and opinion identifiers regarding companies. 
-  - Process and perform a detailed analysis of the news and SEC asset manager datasets, perform data wrangling and preprocessing.
-- Week 3 - Wrapping up 
-  - Process and perform a detailed analysis of the news and SEC datasets, filtering out the relevant data and understand how to combine the two datasets with the information on Twitter for instance.
-  - Find trends in the data regarding the social opinion to the investors and correlate it with the findings regarding the investments done by companies. 
-
-
+  - Task Group 0
+    - [x] Download the required data
+    - [x] Set up the Git and Project plan
+  - Prepare Milestone 2 
+    - [x] Comment and debug the code : *Through the homeworks, we learnt how to work together as a team of 3 students. Throughout this learning process we also learnt which comments in the code are useful for the other members of the team and which comments were not that usefull. Obviously, this process is not over but we got way better than in week 1.*
+    - [x] Learn from the mistakes made in M1
+    - [x] Set clear goals and plans for the next milestone : *The ... *
+  - Task Group 1 - Data Exploration
+    - [x] Clean and organize our data
+    - [x] NaN values, how can we deal with bots and spam etc. (Read papers that might give us interesting insights)
+    - [x] Establish a process for performing tests and evaluations on smaller parts of the dataset and understanding to what extent we will need to work within the frameworks of the cluster
+    - [x] Understand how the cluster works
+  - Task Group 2 - Data Exploitation
+    - [x] Explore data visualization possibilities
+    - [ ] Decide which visualizations formats serve the best our purpose.
+    - [x] Exploration of pre-trained simple Natural Language Processing (NLP) methods (LSI, pLSI, LDA and VSM using lemmatization, stemming and n-grams) to perform analysis on the Twitter and news datasets.
+    - [ ] Determine a dictionary of keywords linked to emotion and opinion identifiers regarding companies. 
+    - [ ] Process and perform a detailed analysis of the news and SEC asset manager datasets, perform data wrangling and preprocessing.
+  - Task Group 3 - Wrapping up MS1  
+    - [ ] Process and perform a detailed analysis of the news and SEC datasets, filtering out the relevant data and understand how to combine the two datasets with the information on Twitter for instance.
+    - [ ] Find trends in the data regarding the social opinion to the investors and correlate it with the findings regarding the investments done by companies. 
+  
 #### Questions for TA's
 
 - What technologies do professional data blogs like FiveThirtyEight use for visualization?
+**ANSWER** : *For fancy visualisation, you can use D3.js, for simple one you can use some wrappers of D3.js (C3.js)* 
 - Is the content we have enough to make a project?
+**ANSWER** :  *You seem to have enough content for now. Once you start exploring the dataset you can reiterate on your research questions and refine them if needed.*
