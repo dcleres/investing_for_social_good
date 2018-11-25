@@ -57,7 +57,12 @@ The Twitter data is a dataset provided by the course so we are confident that th
     - [ ] Find trends in the data regarding the social opinion to the investors and correlate it with the findings regarding the investments done by companies. 
     
 - **Milestone 2 (MS2)**
-  - Feedback from MS1: 
+  - Feedback from MS1: Due to the large number of projects that the group is accumulating through the different classes that each group member is taking, we decided to adopt a very structured approach for this project. We took advantage of GitHub's possibility to define issues, to assign them and to label them. Therefore at each meeting tried to summarize in a few issues the task to do until the next meeting. The tickets can be seen [here][https://github.com/dcleres/investing_for_social_good/projects/1]. This second milestone was marked by the fact that we also had Homework 4 to handle in parallel. However, we succesfully managed to work on both tasks. Nevertheless, it is obvious that the working hours put into the project were restrained. From the objectives set in MS1, the one labelled with the check are the objectives what we managed to finish at 100%. The ones wihtout check are either in progress or had to be delayed to the 3rd milestone since they came too early in the pipeline. 
+  - From the knowledge acquired in MS1, we were able to define the following goals for the next milestone: 
+    - Task Group 1 - Data Exploration
+      - [ ] aa
+      
+
   
 #### Questions for TA's
 
