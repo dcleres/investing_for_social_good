@@ -26,13 +26,13 @@ List the datasets containing the information needed to answer the above-mentione
 
 Once the project topic was chosen, the group spent a considerable amount of time to look at the quality of the data. For the members, it was important to make sure that the time allocated to the project will be spent on data science and information extraction and not data cleaning.
 
-Our group found some libraries to generate a .csv-like file listing, by company and date, the URLs in the SEC's archives where the [investment portfolio filings](https://github.com/edouardswiac/python-edgar)are stored as consistently structured text and HTML table data. We will be able to programmatically extract the type and scope of different types of asset manager investment holdings (what companies they invested in, the size and value of each investment). This data can be enriched by processing additional news and social data related to portfolio companies into signals of their social impact and mapping these social impact signals to investment portfolios. Based on this data from investment portfolio filings, we hope to be able to identify and analyze investments made in companies that pursue goals related to *social good* from all different kinds of industries. 
+Our group found some libraries to generate a .csv-like file listing, by company and date, the URLs in the SEC's archives where the [investment portfolio filings](https://github.com/edouardswiac/python-edgar) are stored as consistently structured text and HTML table data. We will be able to programmatically extract the type and scope of different types of asset manager investment holdings (what companies they invested in, the size and value of each investment). This data can be enriched by processing additional news and social data related to portfolio companies into signals of their social impact and mapping these social impact signals to investment portfolios. Based on this data from investment portfolio filings, we hope to be able to identify and analyze investments made in companies that pursue goals related to *social good* from all different kinds of industries. 
 
 Regarding the dataset on kaggle, we took a closer look to the comments made about the data and we found no issues. Moreover, the download of the 3 .csv files was done. The structure is well defined with several columns (title, publication, author, data, year, month, URL, content). The size of the dataset is small. 
 
 The Twitter data is a dataset provided by the course so we are confident that there should not be too many insolvable issues and the data does not look *too bad*. The documentation of Twitter API was analyzed to understand how to use this database. First, determination of a dictionary of keywords linked to our subject will be done (and possibly Machine Learning algorithms will be used to broaden it throughout work process). Finally, the tweets will be filtered thanks to the buolt dictionary in order to construct the dataset of interest.
 
-# A list of internal milestones up until project milestone 2
+# A list of internal milestones up until Project Milestone 2
 
 ### Milestone 1 (MS1) 
 - Task Group 0
