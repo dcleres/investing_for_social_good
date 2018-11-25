@@ -19,14 +19,14 @@ Furthermore, it could be interesting to correlate the greater public's interest 
 # Dataset
 List the datasets containing the information needed to answer the above-mentioned questions: 
 
-- [The news][https://www.kaggle.com/snapcrack/all-the-news/home] (253 MB)
+- [The news](https://www.kaggle.com/snapcrack/all-the-news/home)
 
-- [SEC asset manager portfolios][https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent]
-- Twitter : 1% of the tweets of 2017 
+- [SEC asset manager portfolios](https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent)
+- Twitter : 1% of the tweets of 2017 - On the ADA Cluster
 
 Once the project topic was chosen, the group spent a considerable amount of time to look at the quality of the data. For the members, it was important to make sure that the time allocated to the project will be spent on data science and information extraction and not data cleaning.
 
-Our group found some libraries to generate a .csv-like file listing, by company and date, the URLs in the SEC's archives where the investment portfolio filings are stored (https://github.com/edouardswiac/python-edgar) as consistently structured text and HTML table data. We will be able to programmatically extract the type and scope of different types of asset manager investment holdings (what companies they invested in, the size and value of each investment). This data can be enriched by processing additional news and social data related to portfolio companies into signals of their social impact and mapping these social impact signals to investment portfolios. Based on this data from investment portfolio filings, we hope to be able to identify and analyze investments made in companies that pursue goals related to *social good* from all different kinds of industries. 
+Our group found some libraries to generate a .csv-like file listing, by company and date, the URLs in the SEC's archives where the [investment portfolio filings](https://github.com/edouardswiac/python-edgar)are stored as consistently structured text and HTML table data. We will be able to programmatically extract the type and scope of different types of asset manager investment holdings (what companies they invested in, the size and value of each investment). This data can be enriched by processing additional news and social data related to portfolio companies into signals of their social impact and mapping these social impact signals to investment portfolios. Based on this data from investment portfolio filings, we hope to be able to identify and analyze investments made in companies that pursue goals related to *social good* from all different kinds of industries. 
 
 Regarding the dataset on kaggle, we took a closer look to the comments made about the data and we found no issues. Moreover, the download of the 3 .csv files was done. The structure is well defined with several columns (title, publication, author, data, year, month, URL, content). The size of the dataset is small. 
 
@@ -58,7 +58,7 @@ The Twitter data is a dataset provided by the course so we are confident that th
   - [ ] Find trends in the data regarding the social opinion to the investors and correlate it with the findings regarding the investments done by companies. 
     
 ### Milestone 2 (MS2) 
-- Feedback from MS1: Due to the large number of projects that the group is accumulating through the different classes that each group member is taking, we decided to adopt a very structured approach for this project. We took advantage of GitHub's possibility to define issues, to assign them and to label them. Therefore at each meeting tried to summarize in a few issues the task to do until the next meeting. The tickets can be seen [here][https://github.com/dcleres/investing_for_social_good/projects/1]. This second milestone was marked by the fact that we also had Homework 4 to handle in parallel. However, we succesfully managed to work on both tasks. Nevertheless, it is obvious that the working hours put into the project were restrained. From the objectives set in MS1, the one labelled with the check are the objectives what we managed to finish at 100%. The ones wihtout check are either in progress or had to be delayed to the 3rd milestone since they came too early in the pipeline. 
+- Feedback from MS1: Due to the large number of projects that the group is accumulating through the different classes that each group member is taking, we decided to adopt a very structured approach for this project. We took advantage of GitHub's possibility to define issues, to assign them and to label them. Therefore at each meeting tried to summarize in a few issues the task to do until the next meeting. The tickets can be seen [here](https://github.com/dcleres/investing_for_social_good/projects/1). This second milestone was marked by the fact that we also had Homework 4 to handle in parallel. However, we succesfully managed to work on both tasks. Nevertheless, it is obvious that the working hours put into the project were restrained. From the objectives set in MS1, the one labelled with the check are the objectives what we managed to finish at 100%. The ones wihtout check are either in progress or had to be delayed to the 3rd milestone since they came too early in the pipeline. 
 - From the knowledge acquired in MS1, we were able to define the following goals for the next milestone: 
   - Task Group 1 - Data Exploration
     - [ ] aa
