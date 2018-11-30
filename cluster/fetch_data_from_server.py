@@ -52,6 +52,7 @@ sc = spark.sparkContext
 
 CLUSTER_DATA_DIR = '/datasets/twitter_internetarchive/2017/01/01/01/'
 MY_DATA_DIR = '/user/cleres/data/'
+
 extension = '.json.bz2'
 for i in range(60):
     if i < 10 :
@@ -60,15 +61,15 @@ for i in range(60):
         name = str(i)
 
     posts_df = spark.read.json(CLUSTER_DATA_DIR + name + extension)
-##posts_df.write.parquet(MY_DATA_DIR + name +'.parquet', mode = "overwrite")
-    posts_df.write.parquet(MY_DATA_DIR + 'posts_' + name + '.parquet', mode = "overwrite")
-
+    posts_df.write.parquet(MY_DATA_DIR + name + '.parquet', mode = "overwrite")
 
 '''
 name = '00.json.bz2'
 
 posts_df = spark.read.json(CLUSTER_DATA_DIR + name)
-posts_df.write.parquet(MY_DATA_DIR + name +'.parquet', mode = "overwrite")
+posts_df.write.parquet('dc.parquet', mode = "overwrite")
 '''
 
+    os.system('hdfs dfs -copyToLocal ' + MY_DATA_DIR + name + '.parquet ./') #save the files to local so that we can download it
 
+#MY_DATA_DIR + name[0:2]

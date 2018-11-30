@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[ ]:
-
+### RUN THIS IN THE CLUSTER FOLDER OF GITHUB
 
 import os
 import re
@@ -16,5 +16,4 @@ for i in range(60):
     else:
         name = str(i)
         
-    os.system('scp -r -p cleres@iccluster028.iccluster.epfl.ch:/user/cleres/data/' + name + '.parquet ./')
-
+    os.system('scp -r -p cleres@iccluster028.iccluster.epfl.ch:/home/cleres/' + name + '.parquet ./')
