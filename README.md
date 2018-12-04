@@ -12,8 +12,8 @@ Furthermore, it could be interesting to correlate the greater public's interest 
 - What are the most popular “ethical” or “unethical” investments held by asset managers?
 - What asset managers have the portfolios with the greatest/least social impact?
 - What is the great public's opinion regarding the companies that held many investments in social good versus those who do not invest in social good? 
-  - How to make a ranking of “public opinion” regarding a company? 
-- Was there a transition toward investing more into social good then into other projects? If yes, when did it happen? 
+  - How to make a ranking of “public opinion” regarding a company?
+- Was there a transition toward investing more into social good then into other projects? If yes, when did it happen? [Mike]
 - Can we extend the project to other countries in other to build a global social good investment chart? 
 
 # Dataset
@@ -65,16 +65,17 @@ The Twitter data is a dataset provided by the course so we are confident that th
 - Feedback from MS2: Due to the large number of projects that the group is accumulating through the different classes that each group member is taking, we decided to adopt a very structured approach for this project. We took advantage of GitHub's possibility to define issues, to assign them and to label them. Therefore at each meeting tried to summarize in a few issues the task to do until the next meeting. The tickets can be seen [here](https://github.com/dcleres/investing_for_social_good/projects/1). This second milestone was marked by the fact that we also had Homework 4 to handle in parallel. However, we succesfully managed to work on both tasks. Nevertheless, it is obvious that the working hours put into the project were restrained. From the objectives set in MS1, the one labelled with the check are the objectives what we managed to finish at 100%. The ones wihtout check are either in progress or had to be delayed to the 3rd milestone since they came too early in the pipeline. The work that was performed in MS1 is contained in [this notebook](https://github.com/dcleres/investing_for_social_good/blob/master/milestone_2_notebook.ipynb). 
 - From the knowledge acquired in MS1, we were able to define the following goals for the next milestone: 
   - Task Group 1 - Tasks left from MS1 
-    - [ ] Determine a dictionary of keywords linked to emotion and opinion identifiers regarding companies
+    - [x] Determine a dictionary of keywords linked to emotion and opinion identifiers regarding companies
     - [ ] Decide which visualizations formats serve the best our purpose when the data will be shown on the online platform of choice
   - Task Group 2 - Implementation of an Online Platform for the data story 
     - [ ] Collect information about flask 
     - [ ] Collect information about ReactJS
     - [ ] Explore the hosting opportunities of GitHub Pages (free solution) 
   - Task Group 3 - Sentiment Analysis - *This task was started in MS2. However, we need to be careful about the implementation since being mentionned positively on Twitter or in the News does not necessarily mean that the company is investing in social good. Therefore, to have a proper scoring we need more then the 2 weeks (and homework 4) that we had until now.*
-    - [ ] NLP enhencement for Twitter dataset 
-    - [ ] NLP enhencement for News dataset 
+    - [x] NLP enhencement for Twitter dataset 
+    - [ ] NLP enhencement for News dataset [CANCELLED]
     - [ ] Integration of this information in the score calculation 
+        - Make a bibliography of the different scoring solution that we saw and explored and why we chose the one we use. 
   - Task Group 4 - Answer to the Research Questions 
     - [ ] Answer the questions
     - [ ] Define the biases of our analysis
