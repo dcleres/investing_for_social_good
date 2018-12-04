@@ -67,6 +67,7 @@ The Twitter data is a dataset provided by the course so we are confident that th
   - Task Group 1 - Tasks left from MS1 
     - [x] Determine a dictionary of keywords linked to emotion and opinion identifiers regarding companies
     - [ ] Decide which visualizations formats serve the best our purpose when the data will be shown on the online platform of choice
+      - See on D3.JS --> D3 Force-Directed Graph. Make one plot for the investors and in which domain they do invest. 
   - Task Group 2 - Implementation of an Online Platform for the data story 
     - [ ] Collect information about flask 
     - [ ] Collect information about ReactJS
