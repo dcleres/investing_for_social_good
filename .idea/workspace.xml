@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04198835-93c9-44bc-ba49-2050281fd6bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/logos/EPFL-Logo-GREY.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logos/EPFL-Logo-GREY.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logos/dlab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logos/dlab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +54,7 @@
           <entry key="css" value="22" />
           <entry key="html" value="1183" />
           <entry key="php" value="21" />
-          <entry key="yml" value="242" />
+          <entry key="yml" value="250" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -63,7 +62,7 @@
           <entry key="CSS" value="22" />
           <entry key="HTML" value="1183" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="YAML" value="242" />
+          <entry key="YAML" value="250" />
         </counts>
       </usages-collector>
     </session>
@@ -79,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/clients.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -129,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="-3">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -160,9 +159,9 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/research.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/introduction.html" />
         <option value="$PROJECT_DIR$/_includes/clients.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -267,12 +266,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544302535802</updated>
-      <workItem from="1544302538276" duration="7197000" />
+      <workItem from="1544302538276" duration="7287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7197000" />
+    <option name="totallyTimeSpent" value="7287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -494,13 +493,6 @@
     <entry file="file://$PROJECT_DIR$/_layouts/feed.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -549,6 +541,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
