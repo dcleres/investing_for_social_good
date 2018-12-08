@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04198835-93c9-44bc-ba49-2050281fd6bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-114x114-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-120x120-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-144x144-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-152x152-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-180x180-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-57x57-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-60x60-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-72x72-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-76x76-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/mstile-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/mstile-310x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/mstile-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/mstile-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/portfolio/EPFL-Logo-GREY.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/portfolio/EPFL-Logo-GREY.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/introduction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/browserconfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/mstile-150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logos/dlab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/clients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/EPFL-Logo-GREY.eps" beforeDir="false" afterPath="$PROJECT_DIR$/img/logos/EPFL-Logo-GREY.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/EPFL-Logo-GREY.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logos/EPFL-Logo-GREY.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,13 +28,13 @@
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="css" value="5" />
-          <entry key="html" value="24" />
+          <entry key="html" value="26" />
           <entry key="ipynb" value="1" />
           <entry key="jpg" value="13" />
           <entry key="js" value="6" />
           <entry key="markdown" value="4" />
           <entry key="php" value="1" />
-          <entry key="png" value="2" />
+          <entry key="png" value="4" />
           <entry key="rb" value="1" />
           <entry key="xml" value="2" />
           <entry key="yml" value="4" />
@@ -76,8 +43,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="24" />
-          <entry key="Image" value="15" />
+          <entry key="HTML" value="26" />
+          <entry key="Image" value="17" />
           <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -88,7 +55,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="22" />
-          <entry key="html" value="1040" />
+          <entry key="html" value="1183" />
           <entry key="php" value="21" />
           <entry key="yml" value="242" />
         </counts>
@@ -96,7 +63,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="22" />
-          <entry key="HTML" value="1040" />
+          <entry key="HTML" value="1183" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="YAML" value="242" />
         </counts>
@@ -108,8 +75,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="195">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/clients.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -123,13 +99,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/logos/dlab.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/research.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="164" selection-start-line="6" selection-start-column="164" selection-end-line="6" selection-end-column="164" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/portfolio/dreams.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -153,38 +148,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/feed.xml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/clients.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="125" selection-start-line="5" selection-start-column="125" selection-end-line="5" selection-end-column="125" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -211,6 +174,7 @@
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/introduction.html" />
+        <option value="$PROJECT_DIR$/_includes/clients.html" />
       </list>
     </option>
   </component>
@@ -267,13 +231,7 @@
               <item name="investing_for_social_good" type="b2602c69:ProjectViewProjectNode" />
               <item name="investing_for_social_good" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="favicon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="investing_for_social_good" type="b2602c69:ProjectViewProjectNode" />
-              <item name="investing_for_social_good" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="logos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,6 +247,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/logos" />
       <recent name="$PROJECT_DIR$/img/portfolio" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
@@ -320,12 +279,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544302535802</updated>
-      <workItem from="1544302538276" duration="6621000" />
+      <workItem from="1544302538276" duration="6890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6621000" />
+    <option name="totallyTimeSpent" value="6890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -516,22 +475,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/research.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="164" selection-start-line="6" selection-start-column="164" selection-end-line="6" selection-end-column="164" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4155">
           <caret line="277" column="30" lean-forward="true" selection-start-line="277" selection-start-column="30" selection-end-line="277" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/clients.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/contact.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -556,13 +505,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/feed.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -589,6 +531,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logos/dlab.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/research.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="164" selection-start-line="6" selection-start-column="164" selection-end-line="6" selection-end-column="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/portfolio/dreams.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/clients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
