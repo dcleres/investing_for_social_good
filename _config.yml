@@ -2,27 +2,29 @@ url: https://dcleres.github.io
 baseurl: /investing_for_social_good/
 
 # Site settings
-title: ADA 
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: EPFL - ADA - CS-401 - Fall 2018
+email: david.cleres@epfl.ch
+description: "Society is demanding that companies, both public and private, serve a social purpose. To prosper over time,
+every company must not only deliver financial performance but also show how it makes a positive contribution to society. \n
+- Laurence D. Fink, CEO BlackRock"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: David Cleres
+  pic: DC
+  position: Computationnal Science & Engineering (CSE)
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/DavidCleres
     - title: facebook
-      url: #
+      url: https://www.facebook.com/david.cleres
     - title: stack-overflow
-      url: #
+      url: https://stackoverflow.com/users/9543860/dcleres
 
-- name: Larry Parker
+- name: Mike Jiao
   pic: 2
-  position: Lead Marketer
+  position: Computer Science (CS)
   social:
     - title: twitter
       url: #
@@ -31,15 +33,15 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Nicolas Lesimple
   pic: 3
-  position: Lead Developer
+  position: Computationnal Science & Engineering (CSE)
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
-    - title: google-plus
+    - title: linkedin
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -50,15 +52,13 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: EPFL
+  - line: Lausanne
 
 # Build settings
 markdown: kramdown
