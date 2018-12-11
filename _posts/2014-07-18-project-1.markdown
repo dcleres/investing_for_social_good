@@ -8,7 +8,7 @@ img: ethical-investments-in-super.jpg
 thumbnail: socially-responsible-investing.jpg
 alt: image-alt
 project-date: December 2018
-client: Start Bootstrap
+client: EPFL - ADA Course
 category: Ethics
 description: Dictionaries list several different definitions for the word "ethics." The primary definition is a system of moral principles, and a secondary definition is that ethics are the rules of conduct as used by a specific group or culture. The final definition of ethics is a branch of philosophy dealing with values relating to human conduct, with respect to the right and wrong of certain actions and their respective motives and consequences. The proper application of ethics to investments is a highly subjective topic that can raise some difficult questions for both investors and regulatory agencies.
 
