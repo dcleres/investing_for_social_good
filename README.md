@@ -73,7 +73,10 @@ The Twitter data is a dataset provided by the course so we are confident that th
   - Task Group 2 - Implementation of an Online Platform for the data story 
     - [ ] Collect information about flask 
     - [ ] Collect information about ReactJS
+    - [ ] Explore informations about Jekyll
     - [ ] Explore the hosting opportunities of GitHub Pages (free solution) 
+    - [ ] Find a suitable layout that works with the project 
+    - [ ] Organise the content of the webpage (find goos titles and enhance the user experience while being on the website
   - Task Group 3 - Sentiment Analysis - *This task was started in MS2. However, we need to be careful about the implementation since being mentionned positively on Twitter or in the News does not necessarily mean that the company is investing in social good. Therefore, to have a proper scoring we need more then the 2 weeks (and homework 4) that we had until now.*
     - [x] NLP enhencement for Twitter dataset 
     - [ ] NLP enhencement for News dataset [CANCELLED]
