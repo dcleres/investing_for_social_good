@@ -1,15 +1,16 @@
 ---
-title: Dreams
-subtitle: Website Design
+title:  The Ethics of Investing
+subtitle: Ethical and Unethical Investments
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+date: 2018-12-21
+img: ethical-investments-in-super.jpg
+thumbnail: socially-responsible-investing.jpg
 alt: image-alt
-project-date: April 2014
+project-date: December 2018
 client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+category: Ethics
+description: Dictionaries list several different definitions for the word "ethics." The primary definition is a system of moral principles, and a secondary definition is that ethics are the rules of conduct as used by a specific group or culture. The final definition of ethics is a branch of philosophy dealing with values relating to human conduct, with respect to the right and wrong of certain actions and their respective motives and consequences. The proper application of ethics to investments is a highly subjective topic that can raise some difficult questions for both investors and regulatory agencies.
 
 ---
+
