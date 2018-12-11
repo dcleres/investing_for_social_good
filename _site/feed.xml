@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 11 Dec 2018 23:23:16 +0100</pubDate>
+    <lastBuildDate>Tue, 11 Dec 2018 23:23:16 +0100</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>The Ethics of Investing</title>
+        <description>
+</description>
+        <pubDate>Mon, 10 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/ethics/2018/12/10/project-3.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ethics/2018/12/10/project-3.html</guid>
+        
+        
+        <category>Ethics</category>
+        
+      </item>
+    
+      <item>
+        <title>The Ethics of Investing</title>
+        <description>&lt;h1 id=&quot;the-ethical-puzzle&quot;&gt;The Ethical Puzzle&lt;/h1&gt;
+&lt;p&gt;Although the definition of ethical investing could be stated as simply purchasing investments from issuers who act ethically, investors who seek to achieve this must first establish a set of criteria that can be used to determine what actions and practices are considered ethical to them. For example, the Bible and other religious books provide rules and principles for people to live by, and those who believe what those books say use them as guides to evaluate things in the world around them. Religious texts and other moral teachings, however, do not always provide crystal-clear guidance for practical investment decisions.
+Although creating or finding the ethical criteria to use as the basis for evaluating investments may often be relatively simple, effectively applying that criteria to actual investment choices can be more difficult. For instance, the Bible condemns drunkenness in several passages, but does this then make it unconditionally wrong to purchase securities issued by makers of alcoholic beverages? Since not all consumers of alcohol get drunk, then the investor will have to decide for him or herself whether this investment truly supports immoral behavior. Virtually all issuers of securities or investments most likely do something that at least a substantial percentage of their investors do not approve of (how many investors who buy Treasury securities approve of everything that is done by the government?). Of course, this begs the question of which practices and policies are tolerable for investors and which are not.&lt;/p&gt;
+
+&lt;p&gt;Ethical Issues
+Although the values and beliefs that guide ethically minded investors differ somewhat for each person, there are several specific areas where ethics play a major role. Some of the more notable issues that investors examine from an ethical standpoint include:&lt;/p&gt;
+
+&lt;p&gt;Winning at Someone Else’s Expense
+Although there will inevitably be both winners and losers in a free-market economy, the issue of how a company wins is a concern to some. Companies that have monopolies in a market or industry can function very efficiently in many respects, but they also effectively prevent any form of healthy business competition, and some investors consider this to be unethical.&lt;/p&gt;
+
+&lt;p&gt;Environmental Responsibility
+Heavy industry such as energy and manufacturing have long been perceived as destroyers of nature and wildlife with their pollution and decimation of forests, oceans, lakes and rivers. Ethical investors favor companies that replace what they take from the earth and adhere to governmental standards for emissions.&lt;/p&gt;
+
+&lt;p&gt;Abortion and Stem-Cell Research
+Companies that profit from certain medical procedures or types of research are often considered to be unethical or even criminal by those in the Judeo-Christian community.&lt;/p&gt;
+
+&lt;p&gt;“Sin” Industries
+Although the concept of an industry being sinful is obviously somewhat subjective, a portion of the investing public still considers makers of alcoholic beverages, tobacco companies, casinos and the pornography industry to be taboo. The tobacco industry, for instance, has long been accused of targeting teenagers as customers and making its products as addictive as possible in order to fuel sales. While sin industries have made efforts to raise public awareness of the dangers of misusing their products and services, some investors may choose to avoid companies that operate in these industries.&lt;/p&gt;
+
+&lt;p&gt;Socially Conscious Investing
+Many investors who seek to avoid what they consider to be unethical investments look to vehicles such as socially conscious mutual funds that screen companies according to specific ethically-based criteria. Many such funds are offered by religious denominations such as the Lutheran Brotherhood, which typically avoids investing in any of the “sin” industries listed above and can provide investors with a clear conscience in this area.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/ethics/2018/12/09/project-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ethics/2018/12/09/project-1.html</guid>
+        
+        
+        <category>Ethics</category>
+        
+      </item>
+    
+      <item>
+        <title>The Asset Manager's Portfolio</title>
+        <description>&lt;h1 id=&quot;assets&quot;&gt;Assets&lt;/h1&gt;
+&lt;p&gt;According to the International Financial Reporting Standards (IFRS), a financial asset can be:&lt;/p&gt;
+
+&lt;p&gt;Cash or cash equivalent,
+Equity instruments of another entity,
+Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,
+A contract that will or may be settled in the entity’s own equity instruments and is either a non-derivative for which the entity is or may be obliged to receive a variable number of the entity’s own equity instruments, or a derivative that will or may be settled other than by exchange of a fixed amount of cash or another financial asset for a fixed number of the entity’s own equity instruments.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 08 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/assets/2018/12/08/project-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/assets/2018/12/08/project-2.html</guid>
+        
+        
+        <category>Assets</category>
+        
+      </item>
+    
+      <item>
+        <title>Golden</title>
+        <description>
+</description>
+        <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/web%20development/2014/07/16/project-7.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/16/project-7.html</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+      <item>
+        <title>Treehouse</title>
+        <description>
+</description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/web%20development/2014/07/15/project-4.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/15/project-4.html</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+      <item>
+        <title>Round Icons</title>
+        <description>&lt;h1 id=&quot;welcome&quot;&gt;Welcome&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/web%20development/2014/07/15/project-6.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/15/project-6.html</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+      <item>
+        <title>Startup Framework</title>
+        <description>
+</description>
+        <pubDate>Mon, 14 Jul 2014 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/web%20development/2014/07/14/project-5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/14/project-5.html</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

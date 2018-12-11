@@ -1,0 +1,15 @@
+---
+title: The Ethics of Investing
+subtitle: Ethical and Unethical Investments
+layout: default
+modal-id: 3
+date: 2018-12-10
+img: ethical-investments-in-super.jpg
+thumbnail: socially-responsible-investing.jpg
+alt: image-alt
+project-date: April 2014
+client: EPFL - ADA Course
+category: Ethics
+description: hola
+
+---
