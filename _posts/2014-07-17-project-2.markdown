@@ -1,15 +1,23 @@
 ---
-title: Escape
-subtitle: Website Design
+title:  The Asset Manager's Portfolio
+subtitle: Portfolio
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+date: 2018-12-21
+img: ethical-investments-in-super.jpg
+thumbnail: socially-responsible-investing.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: December 2018
+client: EPFL - ADA Course
+category: Assets
+description: financial asset is a non-physical asset whose value is derived from a contractual claim, such as bank deposits, bonds, and stocks. Financial assets are usually more liquid than other tangible assets, such as commodities or real estate, and may be traded on financial markets
 
 ---
+
+# Assets
+According to the International Financial Reporting Standards (IFRS), a financial asset can be:
+
+Cash or cash equivalent,
+Equity instruments of another entity,
+Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,
+A contract that will or may be settled in the entity's own equity instruments and is either a non-derivative for which the entity is or may be obliged to receive a variable number of the entity's own equity instruments, or a derivative that will or may be settled other than by exchange of a fixed amount of cash or another financial asset for a fixed number of the entity's own equity instruments.[5]
