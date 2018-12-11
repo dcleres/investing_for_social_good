@@ -175,8 +175,9 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+/*! Change the font of the header on the top left */
 .navbar-default .navbar-brand {
-    font-family: "Helvetica Neue","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Veranda","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
 
