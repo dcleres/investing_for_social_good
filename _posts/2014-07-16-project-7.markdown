@@ -1,15 +1,31 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Towards Social Good
+subtitle: Evolution of the investments 
 layout: default
 modal-id: 7
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: green_invest.jpeg
+thumbnail: Green-Financing.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: December 2018
+client: EPFL ADA
+category: History
+description: Social good project benefit (bonne pub et les entrerpise qui investisssent passent pour cool)
 
 ---
+
+## Introduction
+
+## Research Question
+
+## The Dataset 
+
+## Libraries & Methods 
+
+#### Choices Mades 
+
+## Results 
+
+## Discussion 
+
+## Conclusion

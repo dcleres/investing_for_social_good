@@ -10,7 +10,7 @@ alt: image-alt
 project-date: December 2018
 client: EPFL - ADA Course
 category: Assets
-description: financial asset is a non-physical asset whose value is derived from a contractual claim, such as bank deposits, bonds, and stocks. Financial assets are usually more liquid than other tangible assets, such as commodities or real estate, and may be traded on financial markets
+description: Financial asset is a non-physical asset whose value is derived from a contractual claim, such as bank deposits, bonds, and stocks. Financial assets are usually more liquid than other tangible assets, such as commodities or real estate, and may be traded on financial markets
 
 ---
 
@@ -22,3 +22,18 @@ Equity instruments of another entity,
 Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,
 A contract that will or may be settled in the entity's own equity instruments and is either a non-derivative for which the entity is or may be obliged to receive a variable number of the entity's own equity instruments, or a derivative that will or may be settled other than by exchange of a fixed amount of cash or another financial asset for a fixed number of the entity's own equity instruments.
 
+## Research Question
+What are the most popular “ethical” or “unethical” investments held by asset managers?
+
+
+## The Dataset 
+
+## Libraries & Methods 
+
+#### Choices Mades 
+
+## Results 
+
+## Discussion 
+
+## Conclusion

@@ -1,15 +1,35 @@
 ---
-title: The Ethics of Investing
-subtitle: Ethical and Unethical Investments
+title: Sentiment Analysis
+subtitle: Based on Tweets from 2017
 layout: default
 modal-id: 3
 date: 2018-12-10
-img: ethical-investments-in-super.jpg
-thumbnail: socially-responsible-investing.jpg
+img: twitter.jpg
+thumbnail: twitter_2.png
 alt: image-alt
-project-date: April 2014
+project-date: December 2018
 client: EPFL - ADA Course
-category: Ethics
-description: hola
+category: Sentiments
+description: During this section, you will get insight on how it was possible to link tweets to sentiments and opinions about companies through sentiment analysis. 
 
 ---
+
+## Introduction
+
+## Research Question 
+How to map news article sentiments to specific investments held by companies?
+
+## The Dataset 
+
+The raw dataset was composed of all the tweets from 2017. Since the focus of this section was to link feelings that customers 
+express on Twitter regarding companies through time. For this reason, the twitter data was sampled in 10-days intervals. 
+
+## Libraries & Methods 
+
+#### Choices Mades 
+
+## Results 
+
+## Discussion 
+
+## Conclusion
