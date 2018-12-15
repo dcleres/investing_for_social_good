@@ -16,7 +16,6 @@ description: During this section, you will get insight on how it was possible to
 
 ## Introduction
 
-
 **Used Dataset:** The raw dataset was composed of all the tweets from 2017. Since the focus of this section was to link feelings that customers 
                  express on Twitter regarding companies through time. For this reason, the twitter data was sampled in 10-days intervals. 
 

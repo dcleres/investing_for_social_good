@@ -6,8 +6,8 @@
  - Laurence D. Fink, CEO BlackRock</description>
     <link>http://localhost:4000/investing_for_social_good//</link>
     <atom:link href="http://localhost:4000/investing_for_social_good//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Dec 2018 19:38:23 +0100</pubDate>
-    <lastBuildDate>Sat, 15 Dec 2018 19:38:23 +0100</lastBuildDate>
+    <pubDate>Sat, 15 Dec 2018 19:57:08 +0100</pubDate>
+    <lastBuildDate>Sat, 15 Dec 2018 19:57:08 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -20,33 +20,6 @@
 &lt;p&gt;What asset managers have the portfolios with the greatest/least social impact?&lt;/p&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;h4 id=&quot;portfolio-social-impact-by-investor-and-year&quot;&gt;Portfolio Social Impact by Investor and Year&lt;/h4&gt;
-
-&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~dcleres/23.embed&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;The 3-D scatterplot shows the portfolio-wide social impact of institutional investors with over 100M in holders in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
-Observations include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Investors do not seem to be, as a general trend, shifting towards higher social impact investments&lt;/li&gt;
-  &lt;li&gt;Very few investors have relatively high social impact scores, with the majority of investors having relatively much lower scores&lt;/li&gt;
-  &lt;li&gt;Highest portfolio social impact score:
-    &lt;ul&gt;
-      &lt;li&gt;Mirae Asset Global Investments (2013) - 400B Korean Financial Services Group&lt;/li&gt;
-      &lt;li&gt;Rehmann Capital Advisory Group (2015) - Wealth Management Advisory (high networth individuals)&lt;/li&gt;
-      &lt;li&gt;AETNA INC /PA/ (2017) - Healthcare Company&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Lowest portfolio social impact score (all scores of 0):
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=133257895&quot;&gt;Index Management Solutions, LLC (2013)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;http://waterinv.com/&quot;&gt;Water Asset Management, LCC (2015)&lt;/a&gt; - Land and Buildings Investment Management, LCC (2017)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Notice that these investors are all relatively small, LLC, specialized investors focused on very specific verticals such as Water Storage, Real Estate, and investment services&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h4 id=&quot;2017-investor-portfolios-by-social-impact&quot;&gt;2017 Investor Portfolios by Social Impact&lt;/h4&gt;
 
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/10.embed&quot;&gt;&lt;/iframe&gt;
@@ -73,7 +46,7 @@ Observations include:&lt;/p&gt;
         <title>The Asset Manager's Portfolio</title>
         <description>&lt;h1 id=&quot;introduction--definitions&quot;&gt;Introduction &amp;amp; Definitions&lt;/h1&gt;
 
-&lt;p&gt;According to the International Financial Reporting Standards (IFRS), a financial &lt;strong&gt;asset&lt;/strong&gt; can be:&lt;/p&gt;
+&lt;p&gt;According to the International Financial Reporting Standards (IFRS), a &lt;strong&gt;financial asset&lt;/strong&gt; can be:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Cash or cash equivalent,&lt;/li&gt;
   &lt;li&gt;Equity instruments of another entity,&lt;/li&gt;
@@ -86,7 +59,6 @@ Observations include:&lt;/p&gt;
 &lt;h2 id=&quot;research-questions&quot;&gt;Research Questions&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;What are the most popular “ethical” or “unethical” investments held by asset managers?&lt;/li&gt;
-  &lt;li&gt;Was there a transition toward investing more into social good then into other projects? If yes, when did it happen?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
@@ -119,19 +91,10 @@ Notice that:&lt;/p&gt;
   &lt;li&gt;Interesting to find Tesla (TSLA) with a score of 45.05744 and 66 large asset manager investors&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;investor-social-impact-in-2013-vs-2017&quot;&gt;Investor Social Impact in 2013 vs 2017&lt;/h4&gt;
-&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/25.embed&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;The Scatterplot displays how the social impact of investor portfolios has changed from 2013 to 2017. The graph has 5 layers/traces that can be optionally displayed or removed from the plot by clicking the respective item in the Legend. 
-These layers in order from top to bottom correspond with 1) All 2017 Investor Portfolio Social Impact Scores, 2) 2017 
-Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score from 2013, 3) 2017 
-Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score from 2013, 4) 2013 Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score in 2017, and 5) 2013 Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score in 2017.
-Using these different layers, you can see how the Social Impact of the best and worst Social Impact Investors has changed, or not changed between 2013 and 2017.&lt;/p&gt;
-
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;It seems like while a small minority of investors have adopted specialized strategies towards increasing social impact, most have not decided that predominantly social impact oriented portfolios related to successful investment returns. There does not seem to be an overall transition towards social impact investing. Although we can definitely see that the the largest, most successful investors are not among the worst at investing for social impact, this may be due to for example owning larger numbers of successful technology company stocks such as Apple and Microsoft that also tend to have produced incredibly high financial returns, instead of deliberate efforts to adopt investment portfolios that are more socially impactful.&lt;/p&gt;
+
 </description>
         <pubDate>Fri, 14 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/investing_for_social_good//assets/2018/12/14/project-2/</link>
@@ -149,12 +112,51 @@ Using these different layers, you can see how the Social Impact of the best and 
 &lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Was there a transition toward investing more into social good then into other projects? If yes, when did it happen?&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;h4 id=&quot;portfolio-social-impact-by-investor-and-year&quot;&gt;Portfolio Social Impact by Investor and Year&lt;/h4&gt;
+
+&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~dcleres/23.embed&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;The 3-D scatterplot shows the portfolio-wide social impact of institutional investors with over 100M in holders in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
+Observations include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Investors do not seem to be, as a general trend, shifting towards higher social impact investments&lt;/li&gt;
+  &lt;li&gt;Very few investors have relatively high social impact scores, with the majority of investors having relatively much lower scores&lt;/li&gt;
+  &lt;li&gt;Highest portfolio social impact score:
+    &lt;ul&gt;
+      &lt;li&gt;Mirae Asset Global Investments (2013) - 400B Korean Financial Services Group&lt;/li&gt;
+      &lt;li&gt;Rehmann Capital Advisory Group (2015) - Wealth Management Advisory (high networth individuals)&lt;/li&gt;
+      &lt;li&gt;AETNA INC /PA/ (2017) - Healthcare Company&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lowest portfolio social impact score (all scores of 0):
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=133257895&quot;&gt;Index Management Solutions, LLC (2013)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://waterinv.com/&quot;&gt;Water Asset Management, LCC (2015)&lt;/a&gt; - Land and Buildings Investment Management, LCC (2017)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Notice that these investors are all relatively small, LLC, specialized investors focused on very specific verticals such as Water Storage, Real Estate, and investment services&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;investor-social-impact-in-2013-vs-2017&quot;&gt;Investor Social Impact in 2013 vs 2017&lt;/h4&gt;
+&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/25.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The Scatterplot displays how the social impact of investor portfolios has changed from 2013 to 2017. The graph has 5 layers/traces that can be optionally displayed or removed from the plot by clicking the respective item in the Legend. 
+These layers in order from top to bottom correspond with 1) All 2017 Investor Portfolio Social Impact Scores, 2) 2017 
+Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score from 2013, 3) 2017 
+Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score from 2013, 4) 2013 Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score in 2017, and 5) 2013 Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score in 2017.
+Using these different layers, you can see how the Social Impact of the best and worst Social Impact Investors has changed, or not changed between 2013 and 2017.&lt;/p&gt;
 
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It seems like while a small minority of investors have adopted specialized strategies towards increasing social impact, most have not decided that predominantly social impact oriented portfolios related to successful investment returns. There does not seem to be an overall transition towards social impact investing. Although we can definitely see that the the largest, most successful investors are not among the worst at investing for social impact, this may be due to for example owning larger numbers of successful technology company stocks such as Apple and Microsoft that also tend to have produced incredibly high financial returns, instead of deliberate efforts to adopt investment portfolios that are more socially impactful.&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/investing_for_social_good//history/2018/12/12/project-7/</link>
@@ -192,12 +194,6 @@ Many investors who seek to avoid what they consider to be unethical investments 
 &lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
-
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
-
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
@@ -271,17 +267,7 @@ Many investors who seek to avoid what they consider to be unethical investments 
     
       <item>
         <title>Other Countries</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+        <description>&lt;h1 id=&quot;coming-soon&quot;&gt;Coming Soon&lt;/h1&gt;
 </description>
         <pubDate>Mon, 14 Jul 2014 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/investing_for_social_good//outreach/2014/07/14/project-5/</link>

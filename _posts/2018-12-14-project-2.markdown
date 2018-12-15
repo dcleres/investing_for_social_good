@@ -16,7 +16,7 @@ description: Financial asset is a non-physical asset whose value is derived from
 
 # Introduction & Definitions 
 
-According to the International Financial Reporting Standards (IFRS), a financial **asset** can be:
+According to the International Financial Reporting Standards (IFRS), a **financial asset** can be:
 - Cash or cash equivalent,
 - Equity instruments of another entity,
 - Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,
@@ -26,8 +26,6 @@ According to the International Financial Reporting Standards (IFRS), a financial
 
 ## Research Questions
 - What are the most popular “ethical” or “unethical” investments held by asset managers?
-- Was there a transition toward investing more into social good then into other projects? If yes, when did it happen? 
-
 
 ## Results 
 
@@ -52,16 +50,8 @@ Notice that:
 - Many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors
 - Interesting to find Tesla (TSLA) with a score of 45.05744 and 66 large asset manager investors
 
-#### Investor Social Impact in 2013 vs 2017
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mike.jiao/25.embed"></iframe>
-
-The Scatterplot displays how the social impact of investor portfolios has changed from 2013 to 2017. The graph has 5 layers/traces that can be optionally displayed or removed from the plot by clicking the respective item in the Legend. 
-These layers in order from top to bottom correspond with 1) All 2017 Investor Portfolio Social Impact Scores, 2) 2017 
-Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score from 2013, 3) 2017 
-Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score from 2013, 4) 2013 Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score in 2017, and 5) 2013 Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score in 2017.
-Using these different layers, you can see how the Social Impact of the best and worst Social Impact Investors has changed, or not changed between 2013 and 2017. 
 
 ## Discussion 
 
 ## Conclusion
-It seems like while a small minority of investors have adopted specialized strategies towards increasing social impact, most have not decided that predominantly social impact oriented portfolios related to successful investment returns. There does not seem to be an overall transition towards social impact investing. Although we can definitely see that the the largest, most successful investors are not among the worst at investing for social impact, this may be due to for example owning larger numbers of successful technology company stocks such as Apple and Microsoft that also tend to have produced incredibly high financial returns, instead of deliberate efforts to adopt investment portfolios that are more socially impactful. 
+ 

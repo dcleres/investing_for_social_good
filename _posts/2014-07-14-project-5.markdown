@@ -10,19 +10,8 @@ alt: image-alt
 project-date: December 2018
 client: ADA - EPFL
 category: outreach
-description: data available outside the us ? ? 
+description: data available outside the us
 ---
 
-## Introduction
 
-
-**Used Dataset:** 
-
-## Research Question
-
-
-## Results 
-
-## Discussion 
-
-## Conclusion
+# Coming Soon 
