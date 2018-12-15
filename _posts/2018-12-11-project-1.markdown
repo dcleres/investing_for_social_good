@@ -36,6 +36,8 @@ Although the concept of an industry being sinful is obviously somewhat subjectiv
 Socially Conscious Investing
 Many investors who seek to avoid what they consider to be unethical investments look to vehicles such as socially conscious mutual funds that screen companies according to specific ethically-based criteria. Many such funds are offered by religious denominations such as the Lutheran Brotherhood, which typically avoids investing in any of the "sin" industries listed above and can provide investors with a clear conscience in this area.
 
+**Used Dataset:**
+
 ## Research Question
 
 ## The Dataset 

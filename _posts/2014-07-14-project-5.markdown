@@ -15,13 +15,11 @@ description: data available outside the us ? ?
 
 ## Introduction
 
+
+**Used Dataset:** 
+
 ## Research Question
 
-## The Dataset 
-
-## Libraries & Methods 
-
-#### Choices Mades 
 
 ## Results 
 

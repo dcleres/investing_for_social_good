@@ -6,35 +6,25 @@
  - Laurence D. Fink, CEO BlackRock</description>
     <link>http://localhost:4000/investing_for_social_good//</link>
     <atom:link href="http://localhost:4000/investing_for_social_good//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Dec 2018 15:46:44 +0100</pubDate>
-    <lastBuildDate>Sat, 15 Dec 2018 15:46:44 +0100</lastBuildDate>
+    <pubDate>Sat, 15 Dec 2018 19:38:23 +0100</pubDate>
+    <lastBuildDate>Sat, 15 Dec 2018 19:38:23 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Who owns Who?</title>
         <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;According to the International Financial Reporting Standards (IFRS), a financial asset can be:&lt;/p&gt;
 
-&lt;p&gt;Cash or cash equivalent,
-Equity instruments of another entity,
-Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,
-A contract that will or may be settled in the entity’s own equity instruments and is either a non-derivative for which the entity is or may be obliged to receive a variable number of the entity’s own equity instruments, or a derivative that will or may be settled other than by exchange of a fixed amount of cash or another financial asset for a fixed number of the entity’s own equity instruments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
 &lt;p&gt;What asset managers have the portfolios with the greatest/least social impact?&lt;/p&gt;
-
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
-
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
 &lt;h4 id=&quot;portfolio-social-impact-by-investor-and-year&quot;&gt;Portfolio Social Impact by Investor and Year&lt;/h4&gt;
 
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~dcleres/23.embed&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;The 3-D Scatterplot shows the portfolio-wide social impact of institutional investors with over 100M in holders in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
+&lt;p&gt;The 3-D scatterplot shows the portfolio-wide social impact of institutional investors with over 100M in holders in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
 Observations include:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Investors do not seem to be, as a general trend, shifting towards higher social impact investments&lt;/li&gt;
@@ -61,7 +51,7 @@ Observations include:&lt;/p&gt;
 
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/10.embed&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;The 2-D Scatterplot focus in on year 2017 data from the previous 3-D Scatterplot.&lt;/p&gt;
+&lt;p&gt;The 2-D Scatterplot focus in on year 2017 data from the previous 3-D scatterplot.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;The lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends&lt;/li&gt;
 &lt;/ul&gt;
@@ -81,13 +71,17 @@ Observations include:&lt;/p&gt;
     
       <item>
         <title>The Asset Manager's Portfolio</title>
-        <description>&lt;h1 id=&quot;assets&quot;&gt;Assets&lt;/h1&gt;
-&lt;p&gt;According to the International Financial Reporting Standards (IFRS), a financial asset can be:&lt;/p&gt;
+        <description>&lt;h1 id=&quot;introduction--definitions&quot;&gt;Introduction &amp;amp; Definitions&lt;/h1&gt;
 
-&lt;p&gt;Cash or cash equivalent,
-Equity instruments of another entity,
-Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,
-A contract that will or may be settled in the entity’s own equity instruments and is either a non-derivative for which the entity is or may be obliged to receive a variable number of the entity’s own equity instruments, or a derivative that will or may be settled other than by exchange of a fixed amount of cash or another financial asset for a fixed number of the entity’s own equity instruments.&lt;/p&gt;
+&lt;p&gt;According to the International Financial Reporting Standards (IFRS), a financial &lt;strong&gt;asset&lt;/strong&gt; can be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cash or cash equivalent,&lt;/li&gt;
+  &lt;li&gt;Equity instruments of another entity,&lt;/li&gt;
+  &lt;li&gt;Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,&lt;/li&gt;
+  &lt;li&gt;A contract that will or may be settled in the entity’s own equity instruments and is either a non-derivative for which the entity is or may be obliged to receive a variable number of the entity’s own equity instruments, or a derivative that will or may be settled other than by exchange of a fixed amount of cash or another financial asset for a fixed number of the entity’s own equity instruments.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt; &lt;a href=&quot;https://www.sec.gov/cgi-bin/browse-edgar?company=&amp;amp;CIK=&amp;amp;type=13F&amp;amp;owner=include&amp;amp;count=40&amp;amp;action=getcurrent&quot;&gt;SEC asset manager portfolios&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;research-questions&quot;&gt;Research Questions&lt;/h2&gt;
 &lt;ul&gt;
@@ -95,16 +89,9 @@ A contract that will or may be settled in the entity’s own equity instruments 
   &lt;li&gt;Was there a transition toward investing more into social good then into other projects? If yes, when did it happen?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
-
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
-
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
 &lt;h4 id=&quot;popularity-of-high-social-impact-stocks&quot;&gt;Popularity of High Social Impact Stocks&lt;/h4&gt;
-
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/12.embed&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;The heatmap shows the most and least popular “ethical” investments held by asset managers. It shows the number of investors in 2017 for each stock that scored within the top 10% of Just Capital Social Impact stocks, where stocks scoring in the top 10% of Just Capital Social Impact scores are labeled “ethical”. 
@@ -133,7 +120,6 @@ Notice that:&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;investor-social-impact-in-2013-vs-2017&quot;&gt;Investor Social Impact in 2013 vs 2017&lt;/h4&gt;
-
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/25.embed&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;The Scatterplot displays how the social impact of investor portfolios has changed from 2013 to 2017. The graph has 5 layers/traces that can be optionally displayed or removed from the plot by clicking the respective item in the Legend. 
@@ -142,11 +128,10 @@ Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfoli
 Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score from 2013, 4) 2013 Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score in 2017, and 5) 2013 Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score in 2017.
 Using these different layers, you can see how the Social Impact of the best and worst Social Impact Investors has changed, or not changed between 2013 and 2017.&lt;/p&gt;
 
-&lt;p&gt;It seems like while a small minority of investors have adopted specialized strategies towards increasing social impact, most have not decided that predominantly social impact oriented portfolios related to successful investment returns. There does not seem to be an overall transition towards social impact investing. Although we can definitely see that the the largest, most successful investors are not among the worst at investing for social impact, this may be due to for example owning larger numbers of successful technology company stocks such as Apple and Microsoft that also tend to have produced incredibly high financial returns, instead of deliberate efforts to adopt investment portfolios that are more socially impactful.&lt;/p&gt;
-
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It seems like while a small minority of investors have adopted specialized strategies towards increasing social impact, most have not decided that predominantly social impact oriented portfolios related to successful investment returns. There does not seem to be an overall transition towards social impact investing. Although we can definitely see that the the largest, most successful investors are not among the worst at investing for social impact, this may be due to for example owning larger numbers of successful technology company stocks such as Apple and Microsoft that also tend to have produced incredibly high financial returns, instead of deliberate efforts to adopt investment portfolios that are more socially impactful.&lt;/p&gt;
 </description>
         <pubDate>Fri, 14 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/investing_for_social_good//assets/2018/12/14/project-2/</link>
@@ -161,13 +146,9 @@ Using these different layers, you can see how the Social Impact of the best and 
         <title>Towards Social Good</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
-
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
-
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
@@ -208,6 +189,8 @@ Although the concept of an industry being sinful is obviously somewhat subjectiv
 &lt;p&gt;Socially Conscious Investing
 Many investors who seek to avoid what they consider to be unethical investments look to vehicles such as socially conscious mutual funds that screen companies according to specific ethically-based criteria. Many such funds are offered by religious denominations such as the Lutheran Brotherhood, which typically avoids investing in any of the “sin” industries listed above and can provide investors with a clear conscience in this area.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
 
 &lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
@@ -235,17 +218,11 @@ Many investors who seek to avoid what they consider to be unethical investments 
         <title>Sentiment Analysis</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt; The raw dataset was composed of all the tweets from 2017. Since the focus of this section was to link feelings that customers 
+                 express on Twitter regarding companies through time. For this reason, the twitter data was sampled in 10-days intervals.&lt;/p&gt;
+
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
 &lt;p&gt;How to map news article sentiments to specific investments held by companies?&lt;/p&gt;
-
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
-
-&lt;p&gt;The raw dataset was composed of all the tweets from 2017. Since the focus of this section was to link feelings that customers 
-express on Twitter regarding companies through time. For this reason, the twitter data was sampled in 10-days intervals.&lt;/p&gt;
-
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
@@ -266,10 +243,10 @@ express on Twitter regarding companies through time. For this reason, the twitte
         <title>Investment Geography</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
 &lt;p&gt;Where are the most ethical assets?&lt;/p&gt;
-
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
 
 &lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
 
@@ -296,13 +273,9 @@ express on Twitter regarding companies through time. For this reason, the twitte
         <title>Other Countries</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
-
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
-
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 

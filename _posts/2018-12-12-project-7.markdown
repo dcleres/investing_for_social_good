@@ -16,13 +16,9 @@ description: Social good project benefit (bonne pub et les entrerpise qui invest
 
 ## Introduction
 
+**Used Dataset:**
+
 ## Research Question
-
-## The Dataset 
-
-## Libraries & Methods 
-
-#### Choices Mades 
 
 ## Results 
 

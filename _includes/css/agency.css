@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 
 /*! Change the font of the header on the top left */
 .navbar-default .navbar-brand {
-    font-family: "Veranda","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Veranda","Helvetica Neue",Helvetica,Helvetica,Helvetica;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -301,7 +301,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-@media(min-width:768px) {
+@media(min-width:700px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -326,22 +326,22 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom:30px;
     font-size: 40px;
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+    margin-bottom:30px;
+    text-transform:none;
+    font-family:{{site.data.template.font.secondary}};
+    font-size:16px;
+    font-style:italic;
+
 }
 
 @media(min-width:768px) {
@@ -351,7 +351,8 @@ section h3.section-subheading {
 }
 
 .introduction-heading {
-    margin: 15px 0;
+    max-width:700px;
+    margin: 0 auto 30px;
     text-transform: none;
 }
 

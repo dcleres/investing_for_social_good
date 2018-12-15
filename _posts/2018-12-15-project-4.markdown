@@ -1,7 +1,7 @@
 ---
 
 title: Who owns Who? 
-subtitle: Portfolio
+subtitle: A brief description of the situation
 layout: default
 modal-id: 4
 date: 2018-12-15
@@ -11,34 +11,25 @@ alt: image-alt
 project-date: December 2018
 client: EPFL - ADA Course
 category: Assets
-description: An over overview 
+description: An overview 
 
 ---
 
 # Introduction
-According to the International Financial Reporting Standards (IFRS), a financial asset can be:
 
-Cash or cash equivalent,
-Equity instruments of another entity,
-Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,
-A contract that will or may be settled in the entity's own equity instruments and is either a non-derivative for which the entity is or may be obliged to receive a variable number of the entity's own equity instruments, or a derivative that will or may be settled other than by exchange of a fixed amount of cash or another financial asset for a fixed number of the entity's own equity instruments.
+
+**Used Dataset:**
+
 
 ## Research Question
 What asset managers have the portfolios with the greatest/least social impact?
-
-
-## The Dataset 
-
-## Libraries & Methods 
-
-#### Choices Mades 
 
 ## Results 
 
 #### Portfolio Social Impact by Investor and Year
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~dcleres/23.embed"></iframe>
-The 3-D Scatterplot shows the portfolio-wide social impact of institutional investors with over 100M in holders in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
+The 3-D scatterplot shows the portfolio-wide social impact of institutional investors with over 100M in holders in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
 Observations include: 
 - Investors do not seem to be, as a general trend, shifting towards higher social impact investments
 - Very few investors have relatively high social impact scores, with the majority of investors having relatively much lower scores
@@ -56,7 +47,7 @@ Observations include:
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mike.jiao/10.embed"></iframe>
 
-The 2-D Scatterplot focus in on year 2017 data from the previous 3-D Scatterplot.
+The 2-D Scatterplot focus in on year 2017 data from the previous 3-D scatterplot.
 - The lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends 
 
 
