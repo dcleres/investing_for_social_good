@@ -69,6 +69,20 @@ h6 {
     background-color: #222;
 }
 
+.wrapper_button {
+    text-align: center;
+}
+
+.button_bottom {
+    position: absolute;
+    bottom: 50px;
+}
+
+.button_top {
+    position: absolute;
+    top: 10px;
+}
+
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
