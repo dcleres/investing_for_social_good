@@ -1,13 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 14 Dec 2018 04:09:59 +0100</pubDate>
-    <lastBuildDate>Fri, 14 Dec 2018 04:09:59 +0100</lastBuildDate>
+    <title>Project Social Good - EPFL - ADA</title>
+    <description>Society is demanding that companies, both public and private, serve a social purpose. To prosper over time, every company must not only deliver financial performance but also show how it makes a positive contribution to society. 
+ - Laurence D. Fink, CEO BlackRock</description>
+    <link>http://localhost:4000/investing_for_social_good//</link>
+    <atom:link href="http://localhost:4000/investing_for_social_good//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 15 Dec 2018 12:50:34 +0100</pubDate>
+    <lastBuildDate>Sat, 15 Dec 2018 12:50:34 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Who owns Who?</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;According to the International Financial Reporting Standards (IFRS), a financial asset can be:&lt;/p&gt;
+
+&lt;p&gt;Cash or cash equivalent,
+Equity instruments of another entity,
+Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,
+A contract that will or may be settled in the entity’s own equity instruments and is either a non-derivative for which the entity is or may be obliged to receive a variable number of the entity’s own equity instruments, or a derivative that will or may be settled other than by exchange of a fixed amount of cash or another financial asset for a fixed number of the entity’s own equity instruments.&lt;/p&gt;
+
+&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
+&lt;p&gt;What asset managers have the portfolios with the greatest/least social impact?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
+
+&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
+
+&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;h4 id=&quot;portfolio-social-impact-by-investor-and-year&quot;&gt;Portfolio Social Impact by Investor and Year&lt;/h4&gt;
+
+&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~dcleres/23.embed&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;The 3-D Scatterplot shows the portfolio-wide social impact of institutional investors with over 100M in holders in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
+Observations include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Investors do not seem to be, as a general trend, shifting towards higher social impact investments&lt;/li&gt;
+  &lt;li&gt;Very few investors have relatively high social impact scores, with the majority of investors having relatively much lower scores&lt;/li&gt;
+  &lt;li&gt;Highest portfolio social impact score:
+    &lt;ul&gt;
+      &lt;li&gt;Mirae Asset Global Investments (2013) - 400B Korean Financial Services Group&lt;/li&gt;
+      &lt;li&gt;Rehmann Capital Advisory Group (2015) - Wealth Management Advisory (high networth individuals)&lt;/li&gt;
+      &lt;li&gt;AETNA INC /PA/ (2017) - Healthcare Company&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lowest portfolio social impact score (all scores of 0):
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=133257895&quot;&gt;Index Management Solutions, LLC (2013)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://waterinv.com/&quot;&gt;Water Asset Management, LCC (2015)&lt;/a&gt; - Land and Buildings Investment Management, LCC (2017)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Notice that these investors are all relatively small, LLC, specialized investors focused on very specific verticals such as Water Storage, Real Estate, and investment services&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2017-investor-portfolios-by-social-impact&quot;&gt;2017 Investor Portfolios by Social Impact&lt;/h4&gt;
+
+&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/10.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The 2-D Scatterplot focus in on year 2017 data from the previous 3-D Scatterplot.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 15 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/investing_for_social_good//assets/2018/12/15/project-4/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//assets/2018/12/15/project-4/</guid>
+        
+        
+        <category>Assets</category>
+        
+      </item>
     
       <item>
         <title>Sentiment Analysis</title>
@@ -32,8 +102,8 @@ express on Twitter regarding companies through time. For this reason, the twitte
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/sentiments/2018/12/10/project-3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/sentiments/2018/12/10/project-3.html</guid>
+        <link>http://localhost:4000/investing_for_social_good//sentiments/2018/12/10/project-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//sentiments/2018/12/10/project-3/</guid>
         
         
         <category>Sentiments</category>
@@ -79,8 +149,8 @@ Many investors who seek to avoid what they consider to be unethical investments 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 </description>
         <pubDate>Sun, 09 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/ethics/2018/12/09/project-1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/ethics/2018/12/09/project-1.html</guid>
+        <link>http://localhost:4000/investing_for_social_good//ethics/2018/12/09/project-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//ethics/2018/12/09/project-1/</guid>
         
         
         <category>Ethics</category>
@@ -97,8 +167,11 @@ Equity instruments of another entity,
 Contractual right to receive cash or another financial asset from another entity or to exchange financial assets or financial liabilities with another entity under conditions that are potentially favourable to the entity,
 A contract that will or may be settled in the entity’s own equity instruments and is either a non-derivative for which the entity is or may be obliged to receive a variable number of the entity’s own equity instruments, or a derivative that will or may be settled other than by exchange of a fixed amount of cash or another financial asset for a fixed number of the entity’s own equity instruments.&lt;/p&gt;
 
-&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
-&lt;p&gt;What are the most popular “ethical” or “unethical” investments held by asset managers?&lt;/p&gt;
+&lt;h2 id=&quot;research-questions&quot;&gt;Research Questions&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;What are the most popular “ethical” or “unethical” investments held by asset managers?&lt;/li&gt;
+  &lt;li&gt;Was there a transition toward investing more into social good then into other projects? If yes, when did it happen?&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
 
@@ -108,13 +181,54 @@ A contract that will or may be settled in the entity’s own equity instruments 
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
+&lt;h4 id=&quot;popularity-of-high-social-impact-stocks&quot;&gt;Popularity of High Social Impact Stocks&lt;/h4&gt;
+
+&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/12.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The heatmap shows the most and least popular “ethical” investments held by asset managers. It shows the number of investors in 2017 for each stock that scored within the top 10% of Just Capital Social Impact stocks, where stocks scoring in the top 10% of Just Capital Social Impact scores are labeled “ethical”. 
+Said slightly differently, the heatmap displays the social impact (scored by Just Capital) of each stock within the top 10% of Just Capital Social Impact Scores, as well as the number of large institutional investors (with at least 100M in US 13F type securities) that own that stock. 
+More popular stocks are represented by lighter colours, whereas less popular stocks are represented with darker colours. 
+Although the top 10% of Just Capital Social Impact Scores corresponds to 87 stocks, only 43 stocks are shown in this heatmap. This is because half of these stocks are not held by any large asset manager investor. 
+Notice that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Technology companies, as an industry category, are the most popular “ethical” investments held by asset managers. A large number of stocks shown in this plot represent technology companies, including Apple (APPL) with a social impact score of 59.97005 and 1181 large asset manager investors, and Microsoft (MSFT) with a social impact score of 68.55428 and 948 large asset manager investors.&lt;/li&gt;
+  &lt;li&gt;Blue Chip stocks such as Johnson &amp;amp; Johnson (JNJ) with a social impact score of 59.94658 and 833 large asset manager investors, and Nike (NKE) also appear.&lt;/li&gt;
+  &lt;li&gt;Even with a range of stock social impact scores from 53 to 70, few stocks have scores higher than 63&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;popularity-of-low-social-impact-stocks&quot;&gt;Popularity of Low Social Impact Stocks&lt;/h4&gt;
+&lt;p&gt;The heatmap shows the most and least popular “unethical” investments held by asset managers. Correspond to bottom 10% of Just Capital Social Impact Scores. 
+Notice that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Large asset manager investors in general hold far fewer stocks in this category
+    &lt;ul&gt;
+      &lt;li&gt;each stock has a lower number of investors&lt;/li&gt;
+      &lt;li&gt;there are also less stocks displayed compared to the top ethical stocks&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors&lt;/li&gt;
+  &lt;li&gt;Interesting to find Tesla (TSLA) with a score of 45.05744 and 66 large asset manager investors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;investor-social-impact-in-2013-vs-2017&quot;&gt;Investor Social Impact in 2013 vs 2017&lt;/h4&gt;
+
+&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/25.embed&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The Scatterplot displays how the social impact of investor portfolios has changed from 2013 to 2017. The graph has 5 layers/traces that can be optionally displayed or removed from the plot by clicking the respective item in the Legend. 
+These layers in order from top to bottom correspond with 1) All 2017 Investor Portfolio Social Impact Scores, 2) 2017 
+Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score from 2013, 3) 2017 
+Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score from 2013, 4) 2013 Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score in 2017, and 5) 2013 Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score in 2017.
+Using these different layers, you can see how the Social Impact of the best and worst Social Impact Investors has changed, or not changed between 2013 and 2017.&lt;/p&gt;
+
+&lt;p&gt;It seems like while a small minority of investors have adopted specialized strategies towards increasing social impact, most have not decided that predominantly social impact oriented portfolios related to successful investment returns. There does not seem to be an overall transition towards social impact investing. Although we can definitely see that the the largest, most successful investors are not among the worst at investing for social impact, this may be due to for example owning larger numbers of successful technology company stocks such as Apple and Microsoft that also tend to have produced incredibly high financial returns, instead of deliberate efforts to adopt investment portfolios that are more socially impactful.&lt;/p&gt;
+
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 </description>
         <pubDate>Sat, 08 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/assets/2018/12/08/project-2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/assets/2018/12/08/project-2.html</guid>
+        <link>http://localhost:4000/investing_for_social_good//assets/2018/12/08/project-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//assets/2018/12/08/project-2/</guid>
         
         
         <category>Assets</category>
@@ -136,18 +250,15 @@ A contract that will or may be settled in the entity’s own equity instruments 
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
-&lt;div&gt;
-    &lt;a href=&quot;https://plot.ly/~dcleres/21/?share_key=s0l8ZZTKlK4aeVUn0TP3p9&quot; target=&quot;_blank&quot; title=&quot;Plot 21&quot; style=&quot;display: block; text-align: center;&quot;&gt;&lt;img src=&quot;https://plot.ly/~dcleres/21.png?share_key=s0l8ZZTKlK4aeVUn0TP3p9&quot; alt=&quot;Plot 21&quot; style=&quot;max-width: 100%;width: 600px;&quot; width=&quot;600&quot; onerror=&quot;this.onerror=null;this.src='https://plot.ly/404.png';&quot; /&gt;&lt;/a&gt;
-    &lt;script data-plotly=&quot;dcleres:21&quot; sharekey-plotly=&quot;s0l8ZZTKlK4aeVUn0TP3p9&quot; src=&quot;https://plot.ly/embed.js&quot; async=&quot;&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;
+&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~dcleres/21.embed&quot;&gt;&lt;/iframe&gt;
 
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 </description>
         <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/geography/2018/12/01/project-6.html</link>
-        <guid isPermaLink="true">http://localhost:4000/geography/2018/12/01/project-6.html</guid>
+        <link>http://localhost:4000/investing_for_social_good//geography/2018/12/01/project-6/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//geography/2018/12/01/project-6/</guid>
         
         
         <category>Geography</category>
@@ -173,8 +284,8 @@ A contract that will or may be settled in the entity’s own equity instruments 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 </description>
         <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/history/2014/07/16/project-7.html</link>
-        <guid isPermaLink="true">http://localhost:4000/history/2014/07/16/project-7.html</guid>
+        <link>http://localhost:4000/investing_for_social_good//history/2014/07/16/project-7/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//history/2014/07/16/project-7/</guid>
         
         
         <category>History</category>
@@ -200,8 +311,8 @@ A contract that will or may be settled in the entity’s own equity instruments 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 </description>
         <pubDate>Mon, 14 Jul 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/outreach/2014/07/14/project-5.html</link>
-        <guid isPermaLink="true">http://localhost:4000/outreach/2014/07/14/project-5.html</guid>
+        <link>http://localhost:4000/investing_for_social_good//outreach/2014/07/14/project-5/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//outreach/2014/07/14/project-5/</guid>
         
         
         <category>outreach</category>

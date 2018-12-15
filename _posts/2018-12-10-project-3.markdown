@@ -5,7 +5,7 @@ layout: default
 modal-id: 3
 date: 2018-12-10
 img: twitter.jpg
-thumbnail: twitter_2.png
+thumbnail: twitter.png
 alt: image-alt
 project-date: December 2018
 client: EPFL - ADA Course
