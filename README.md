@@ -33,9 +33,12 @@ Regarding the dataset on Kaggle, we took a closer look to the comments made abou
 The Twitter data is a dataset provided by the course so we are confident that there should not be too many insolvable issues and the data does not look *too bad*. The documentation of Twitter API was analyzed to understand how to use this database. First, determination of a dictionary of keywords linked to our subject will be done (and possibly Machine Learning algorithms will be used to broaden it throughout work process). Finally, the tweets will be filtered thanks to the buolt dictionary in order to construct the dataset of interest.
 
 # Contributions
-* **David Cleres:** Data collection and cleaning, visualization for Twitter Data and Stock location data, Website with Data Story
-* **Mike Jiao:** Data collection and cleaning, visualization for SEC 13F filings
-* **Nicholas Lesimple:** Data cleaning, visualization for Twitter Data
+* **David Cleres:** Data collection, cleaning, and visualization for Twitter Data and Stock location data, Website with Data Story
+* **Mike Jiao:** Data collection, cleaning, and visualization for SEC 13F filings
+* **Nicholas Lesimple:** Data cleaning, and visualization for Twitter Data
+
+Everyone will work on the final presentation.
+
 
 # A list of internal Milestones of the project
 
