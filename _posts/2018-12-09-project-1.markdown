@@ -3,9 +3,9 @@ title:  The Ethics of Investing
 subtitle: Ethical and Unethical Investments
 layout: default
 modal-id: 1
-date: 2018-12-09
-img: Green-Financing.jpg
-thumbnail: Green-Financing.jpg
+date: 2018-12-11
+img: investing.jpg
+thumbnail: ethical.jpg
 alt: image-alt
 project-date: December 2018
 client: EPFL - ADA Course

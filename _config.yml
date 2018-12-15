@@ -30,33 +30,22 @@ people:
   position: Computer Science (CS)
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/mikejiao212
     - title: facebook
-      url: #
+      url: https://www.facebook.com/mike.jiao.5
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/mikejiao/
 
 - name: Nicolas Lesimple
   pic: 3
   position: Computationnal Science & Engineering (CSE)
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/NicolasLesimple
     - title: facebook
-      url: #
+      url: https://www.facebook.com/nicolas.lesimple
     - title: linkedin
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: github
-    url: http://github.com/jekyll
+      url: https://www.linkedin.com/in/nicolas-lesimple-219014127/
 
 # Postal address (add as many lines as necessary)
 address:

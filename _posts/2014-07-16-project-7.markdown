@@ -3,8 +3,8 @@ title: Towards Social Good
 subtitle: Evolution of the investments 
 layout: default
 modal-id: 7
-date: 2014-07-16
-img: green_invest.jpeg
+date: 2018-12-12
+img: social_invest.jpg
 thumbnail: Green-Financing.jpg
 alt: image-alt
 project-date: December 2018

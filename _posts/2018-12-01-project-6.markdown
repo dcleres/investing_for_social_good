@@ -4,7 +4,7 @@ subtitle: US Investments on Maps
 layout: default
 modal-id: 6
 date: 2018-12-01
-img: geography.jpg
+img: world_invest.jpg
 thumbnail: geography.jpg
 alt: image-alt
 project-date: December 2018

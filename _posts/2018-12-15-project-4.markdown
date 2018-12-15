@@ -1,16 +1,18 @@
 ---
+
 title: Who owns Who? 
 subtitle: Portfolio
 layout: default
 modal-id: 4
 date: 2018-12-15
-img: Green-Financing.jpg
-thumbnail: Green-Financing.jpg
+img: investments.jpg
+thumbnail: who_owns_whp.jpg
 alt: image-alt
 project-date: December 2018
 client: EPFL - ADA Course
 category: Assets
-description: 
+description: An over overview 
+
 ---
 
 # Introduction

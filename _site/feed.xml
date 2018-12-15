@@ -6,8 +6,8 @@
  - Laurence D. Fink, CEO BlackRock</description>
     <link>http://localhost:4000/investing_for_social_good//</link>
     <atom:link href="http://localhost:4000/investing_for_social_good//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Dec 2018 12:50:34 +0100</pubDate>
-    <lastBuildDate>Sat, 15 Dec 2018 12:50:34 +0100</lastBuildDate>
+    <pubDate>Sat, 15 Dec 2018 15:46:44 +0100</pubDate>
+    <lastBuildDate>Sat, 15 Dec 2018 15:46:44 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -80,84 +80,6 @@ Observations include:&lt;/p&gt;
       </item>
     
       <item>
-        <title>Sentiment Analysis</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
-&lt;p&gt;How to map news article sentiments to specific investments held by companies?&lt;/p&gt;
-
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
-
-&lt;p&gt;The raw dataset was composed of all the tweets from 2017. Since the focus of this section was to link feelings that customers 
-express on Twitter regarding companies through time. For this reason, the twitter data was sampled in 10-days intervals.&lt;/p&gt;
-
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-</description>
-        <pubDate>Mon, 10 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/investing_for_social_good//sentiments/2018/12/10/project-3/</link>
-        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//sentiments/2018/12/10/project-3/</guid>
-        
-        
-        <category>Sentiments</category>
-        
-      </item>
-    
-      <item>
-        <title>The Ethics of Investing</title>
-        <description>&lt;h1 id=&quot;introduction-to-the-ethical-puzzle&quot;&gt;Introduction to the Ethical Puzzle&lt;/h1&gt;
-&lt;p&gt;Although the definition of ethical investing could be stated as simply purchasing investments from issuers who act ethically, investors who seek to achieve this must first establish a set of criteria that can be used to determine what actions and practices are considered ethical to them. For example, the Bible and other religious books provide rules and principles for people to live by, and those who believe what those books say use them as guides to evaluate things in the world around them. Religious texts and other moral teachings, however, do not always provide crystal-clear guidance for practical investment decisions.
-Although creating or finding the ethical criteria to use as the basis for evaluating investments may often be relatively simple, effectively applying that criteria to actual investment choices can be more difficult. For instance, the Bible condemns drunkenness in several passages, but does this then make it unconditionally wrong to purchase securities issued by makers of alcoholic beverages? Since not all consumers of alcohol get drunk, then the investor will have to decide for him or herself whether this investment truly supports immoral behavior. Virtually all issuers of securities or investments most likely do something that at least a substantial percentage of their investors do not approve of (how many investors who buy Treasury securities approve of everything that is done by the government?). Of course, this begs the question of which practices and policies are tolerable for investors and which are not.&lt;/p&gt;
-
-&lt;p&gt;Ethical Issues
-Although the values and beliefs that guide ethically minded investors differ somewhat for each person, there are several specific areas where ethics play a major role. Some of the more notable issues that investors examine from an ethical standpoint include:&lt;/p&gt;
-
-&lt;p&gt;Winning at Someone Else’s Expense
-Although there will inevitably be both winners and losers in a free-market economy, the issue of how a company wins is a concern to some. Companies that have monopolies in a market or industry can function very efficiently in many respects, but they also effectively prevent any form of healthy business competition, and some investors consider this to be unethical.&lt;/p&gt;
-
-&lt;p&gt;Environmental Responsibility
-Heavy industry such as energy and manufacturing have long been perceived as destroyers of nature and wildlife with their pollution and decimation of forests, oceans, lakes and rivers. Ethical investors favor companies that replace what they take from the earth and adhere to governmental standards for emissions.&lt;/p&gt;
-
-&lt;p&gt;Abortion and Stem-Cell Research
-Companies that profit from certain medical procedures or types of research are often considered to be unethical or even criminal by those in the Judeo-Christian community.&lt;/p&gt;
-
-&lt;p&gt;“Sin” Industries
-Although the concept of an industry being sinful is obviously somewhat subjective, a portion of the investing public still considers makers of alcoholic beverages, tobacco companies, casinos and the pornography industry to be taboo. The tobacco industry, for instance, has long been accused of targeting teenagers as customers and making its products as addictive as possible in order to fuel sales. While sin industries have made efforts to raise public awareness of the dangers of misusing their products and services, some investors may choose to avoid companies that operate in these industries.&lt;/p&gt;
-
-&lt;p&gt;Socially Conscious Investing
-Many investors who seek to avoid what they consider to be unethical investments look to vehicles such as socially conscious mutual funds that screen companies according to specific ethically-based criteria. Many such funds are offered by religious denominations such as the Lutheran Brotherhood, which typically avoids investing in any of the “sin” industries listed above and can provide investors with a clear conscience in this area.&lt;/p&gt;
-
-&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
-
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
-
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-</description>
-        <pubDate>Sun, 09 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/investing_for_social_good//ethics/2018/12/09/project-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//ethics/2018/12/09/project-1/</guid>
-        
-        
-        <category>Ethics</category>
-        
-      </item>
-    
-      <item>
         <title>The Asset Manager's Portfolio</title>
         <description>&lt;h1 id=&quot;assets&quot;&gt;Assets&lt;/h1&gt;
 &lt;p&gt;According to the International Financial Reporting Standards (IFRS), a financial asset can be:&lt;/p&gt;
@@ -226,12 +148,117 @@ Using these different layers, you can see how the Social Impact of the best and 
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 </description>
-        <pubDate>Sat, 08 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/investing_for_social_good//assets/2018/12/08/project-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//assets/2018/12/08/project-2/</guid>
+        <pubDate>Fri, 14 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/investing_for_social_good//assets/2018/12/14/project-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//assets/2018/12/14/project-2/</guid>
         
         
         <category>Assets</category>
+        
+      </item>
+    
+      <item>
+        <title>Towards Social Good</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
+
+&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
+
+&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+</description>
+        <pubDate>Wed, 12 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/investing_for_social_good//history/2018/12/12/project-7/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//history/2018/12/12/project-7/</guid>
+        
+        
+        <category>History</category>
+        
+      </item>
+    
+      <item>
+        <title>The Ethics of Investing</title>
+        <description>&lt;h1 id=&quot;introduction-to-the-ethical-puzzle&quot;&gt;Introduction to the Ethical Puzzle&lt;/h1&gt;
+&lt;p&gt;Although the definition of ethical investing could be stated as simply purchasing investments from issuers who act ethically, investors who seek to achieve this must first establish a set of criteria that can be used to determine what actions and practices are considered ethical to them. For example, the Bible and other religious books provide rules and principles for people to live by, and those who believe what those books say use them as guides to evaluate things in the world around them. Religious texts and other moral teachings, however, do not always provide crystal-clear guidance for practical investment decisions.
+Although creating or finding the ethical criteria to use as the basis for evaluating investments may often be relatively simple, effectively applying that criteria to actual investment choices can be more difficult. For instance, the Bible condemns drunkenness in several passages, but does this then make it unconditionally wrong to purchase securities issued by makers of alcoholic beverages? Since not all consumers of alcohol get drunk, then the investor will have to decide for him or herself whether this investment truly supports immoral behavior. Virtually all issuers of securities or investments most likely do something that at least a substantial percentage of their investors do not approve of (how many investors who buy Treasury securities approve of everything that is done by the government?). Of course, this begs the question of which practices and policies are tolerable for investors and which are not.&lt;/p&gt;
+
+&lt;p&gt;Ethical Issues
+Although the values and beliefs that guide ethically minded investors differ somewhat for each person, there are several specific areas where ethics play a major role. Some of the more notable issues that investors examine from an ethical standpoint include:&lt;/p&gt;
+
+&lt;p&gt;Winning at Someone Else’s Expense
+Although there will inevitably be both winners and losers in a free-market economy, the issue of how a company wins is a concern to some. Companies that have monopolies in a market or industry can function very efficiently in many respects, but they also effectively prevent any form of healthy business competition, and some investors consider this to be unethical.&lt;/p&gt;
+
+&lt;p&gt;Environmental Responsibility
+Heavy industry such as energy and manufacturing have long been perceived as destroyers of nature and wildlife with their pollution and decimation of forests, oceans, lakes and rivers. Ethical investors favor companies that replace what they take from the earth and adhere to governmental standards for emissions.&lt;/p&gt;
+
+&lt;p&gt;Abortion and Stem-Cell Research
+Companies that profit from certain medical procedures or types of research are often considered to be unethical or even criminal by those in the Judeo-Christian community.&lt;/p&gt;
+
+&lt;p&gt;“Sin” Industries
+Although the concept of an industry being sinful is obviously somewhat subjective, a portion of the investing public still considers makers of alcoholic beverages, tobacco companies, casinos and the pornography industry to be taboo. The tobacco industry, for instance, has long been accused of targeting teenagers as customers and making its products as addictive as possible in order to fuel sales. While sin industries have made efforts to raise public awareness of the dangers of misusing their products and services, some investors may choose to avoid companies that operate in these industries.&lt;/p&gt;
+
+&lt;p&gt;Socially Conscious Investing
+Many investors who seek to avoid what they consider to be unethical investments look to vehicles such as socially conscious mutual funds that screen companies according to specific ethically-based criteria. Many such funds are offered by religious denominations such as the Lutheran Brotherhood, which typically avoids investing in any of the “sin” industries listed above and can provide investors with a clear conscience in this area.&lt;/p&gt;
+
+&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
+
+&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
+
+&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+</description>
+        <pubDate>Tue, 11 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/investing_for_social_good//ethics/2018/12/11/project-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//ethics/2018/12/11/project-1/</guid>
+        
+        
+        <category>Ethics</category>
+        
+      </item>
+    
+      <item>
+        <title>Sentiment Analysis</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
+&lt;p&gt;How to map news article sentiments to specific investments held by companies?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
+
+&lt;p&gt;The raw dataset was composed of all the tweets from 2017. Since the focus of this section was to link feelings that customers 
+express on Twitter regarding companies through time. For this reason, the twitter data was sampled in 10-days intervals.&lt;/p&gt;
+
+&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
+
+&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+</description>
+        <pubDate>Mon, 10 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/investing_for_social_good//sentiments/2018/12/10/project-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//sentiments/2018/12/10/project-3/</guid>
+        
+        
+        <category>Sentiments</category>
         
       </item>
     
@@ -262,33 +289,6 @@ Using these different layers, you can see how the Social Impact of the best and 
         
         
         <category>Geography</category>
-        
-      </item>
-    
-      <item>
-        <title>Towards Social Good</title>
-        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
-
-&lt;h2 id=&quot;the-dataset&quot;&gt;The Dataset&lt;/h2&gt;
-
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-</description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/investing_for_social_good//history/2014/07/16/project-7/</link>
-        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//history/2014/07/16/project-7/</guid>
-        
-        
-        <category>History</category>
         
       </item>
     
