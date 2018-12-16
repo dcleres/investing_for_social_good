@@ -6,8 +6,8 @@
  - Laurence D. Fink, CEO BlackRock</description>
     <link>http://localhost:4000/investing_for_social_good//</link>
     <atom:link href="http://localhost:4000/investing_for_social_good//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Dec 2018 16:20:56 +0100</pubDate>
-    <lastBuildDate>Sun, 16 Dec 2018 16:20:56 +0100</lastBuildDate>
+    <pubDate>Sun, 16 Dec 2018 16:38:25 +0100</pubDate>
+    <lastBuildDate>Sun, 16 Dec 2018 16:38:25 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -23,24 +23,27 @@
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
 &lt;h4 id=&quot;general-overview-and-cleaning&quot;&gt;General Overview and Cleaning&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/investing_for_social_good//img/portfolio/a.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-&lt;img src=&quot;/investing_for_social_good//img/portfolio/b.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-&lt;img src=&quot;/investing_for_social_good//img/portfolio/c.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-&lt;img src=&quot;/investing_for_social_good//img/portfolio/d.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-&lt;img src=&quot;/investing_for_social_good//img/portfolio/e.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/investing_for_social_good//img/portfolio/a.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;
+&lt;img src=&quot;/investing_for_social_good//img/portfolio/b.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;
+&lt;img src=&quot;/investing_for_social_good//img/portfolio/c.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;
+&lt;img src=&quot;/investing_for_social_good//img/portfolio/d.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;
+&lt;img src=&quot;/investing_for_social_good//img/portfolio/e.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;2017-investor-portfolios-by-social-impact&quot;&gt;2017 Investor Portfolios by Social Impact&lt;/h4&gt;
 
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/10.embed&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;The 2-D Scatterplot focus in on year 2017 data from the previous 3-D scatterplot.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;We can observe in the 2-D Scatterplot above, focused on 2017 data, the variation in Investor Portfolio social impact amoung large ($100M+) asset managers. We see that the distribution of portfolio social impact is bimodal, with most investors having very low portfolio social impact scores (below 10 points), followed by a second, smaller group with very high scores (above 30 points). This suggests that there is no clear consensus amoung the asset management community in the need for them to implement social impact maximizing or minimizing portfolio investment strategies.&lt;/p&gt;
 
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
+&lt;p&gt;We see that, for example, the lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends such as societal pressures to be more socially impactful.&lt;/p&gt;
+
+&lt;p&gt;On the other end of the spectrum, the highest scoring investor, Aetna Inc, is a healthcare company, and is thus intrensically driven to invest based on values aligned with social impact outcomes (i.e., improvements to medical technology, social services, etc).&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;After examining the specific organizations behind both the most and least socially impactful investors, on a portfolio-wide basis, we can see that the extent of their social impact can be largely explained by investor-specific attributes, such as specific profit-maximizing investment strategies, and organizational values. This suggests that the lack of a clear consensus amoung asset managers towards the need to make explicitly social-impact oriented decisions comes from a lack of motivation to make such decisions. Given the lack of transparency public stakeholders have into the investment activities and social impact of asset managers, it is not surprising for us to see that asset managers are not motivated as a whole to consider social impact explicitly in their investment strategies, even as public stakeholder support of social impact investments grows.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/investing_for_social_good//assets/2018/12/15/project-4/</link>
@@ -54,6 +57,8 @@
       <item>
         <title>The Asset Manager's Portfolio</title>
         <description>&lt;h1 id=&quot;introduction--definitions&quot;&gt;Introduction &amp;amp; Definitions&lt;/h1&gt;
+
+&lt;p&gt;This data substory aims to understand the types of investments asset management investors favor, and to examine the motivations behind asset manager’s investments into the best and worst social impact investments.&lt;/p&gt;
 
 &lt;p&gt;According to the International Financial Reporting Standards (IFRS), a &lt;strong&gt;financial asset&lt;/strong&gt; can be:&lt;/p&gt;
 &lt;ul&gt;
@@ -78,34 +83,33 @@
 &lt;p&gt;The heatmap shows the most and least popular “ethical” investments held by asset managers. It shows the number of investors in 2017 for each stock that scored within the top 10% of Just Capital Social Impact stocks, where stocks scoring in the top 10% of Just Capital Social Impact scores are labeled “ethical”. 
 Said slightly differently, the heatmap displays the social impact (scored by Just Capital) of each stock within the top 10% of Just Capital Social Impact Scores, as well as the number of large institutional investors (with at least 100M in US 13F type securities) that own that stock. 
 More popular stocks are represented by lighter colours, whereas less popular stocks are represented with darker colours. 
-Although the top 10% of Just Capital Social Impact Scores corresponds to 87 stocks, only 43 stocks are shown in this heatmap. This is because half of these stocks are not held by any large asset manager investor. 
-Notice that:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Technology companies, as an industry category, are the most popular “ethical” investments held by asset managers. A large number of stocks shown in this plot represent technology companies, including Apple (APPL) with a social impact score of 59.97005 and 1181 large asset manager investors, and Microsoft (MSFT) with a social impact score of 68.55428 and 948 large asset manager investors.&lt;/li&gt;
-  &lt;li&gt;Blue Chip stocks such as Johnson &amp;amp; Johnson (JNJ) with a social impact score of 59.94658 and 833 large asset manager investors, and Nike (NKE) also appear.&lt;/li&gt;
-  &lt;li&gt;Even with a range of stock social impact scores from 53 to 70, few stocks have scores higher than 63&lt;/li&gt;
-&lt;/ul&gt;
+Although the top 10% of Just Capital Social Impact Scores corresponds to 87 stocks, only 43 stocks are shown in this heatmap. This is because half of these stocks are not held by any large asset manager investor.&lt;/p&gt;
 
 &lt;h4 id=&quot;popularity-of-low-social-impact-stocks&quot;&gt;Popularity of Low Social Impact Stocks&lt;/h4&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/14.embed&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;The heatmap shows the most and least popular “unethical” investments held by asset managers. Correspond to bottom 10% of Just Capital Social Impact Scores. 
-Notice that:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Large asset manager investors in general hold far fewer stocks in this category
-    &lt;ul&gt;
-      &lt;li&gt;each stock has a lower number of investors&lt;/li&gt;
-      &lt;li&gt;there are also less stocks displayed compared to the top ethical stocks&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors&lt;/li&gt;
-  &lt;li&gt;Interesting to find Tesla (TSLA) with a score of 45.05744 and 66 large asset manager investors&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The heatmap follows an identical format to the previous heatmap, and shows the most and least popular “unethical” investments held by asset managers. These stocks correspond to bottom 10% of Just Capital Social Impact Scores.&lt;/p&gt;
 
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
+&lt;h3 id=&quot;high-impact-stock-popularity-observations&quot;&gt;High Impact Stock Popularity Observations&lt;/h3&gt;
+
+&lt;p&gt;We can see that &lt;strong&gt;technology companies&lt;/strong&gt;, as an industry category, are the most popular “ethical” investments held by asset managers. A large number of stocks shown in the &lt;em&gt;Popularity of High Social Impact Stocks&lt;/em&gt; plot represent technology companies, including Apple (APPL) with a social impact score of 59.97005 and 1181 large asset manager investors, and Microsoft (MSFT) with a social impact score of 68.55428 and 948 large asset manager investors.&lt;/p&gt;
+
+&lt;p&gt;Another popular type of high impact stock are Blue Chip stocks (stocks with a history of reliable returns that are highly trusted by the larger investment industry) such as Johnson &amp;amp; Johnson (JNJ) with a social impact score of 59.94658 and 833 large asset manager investors, and Nike (NKE) also appear.&lt;/p&gt;
+
+&lt;p&gt;We also notice that there is an uneven distribution of stocks within the highest social impact stocks. Although the top 10% of social impact stocks have social impact scores ranging from 53 to 70, few stocks exist in the upper half of this range, with scores higher than 63 points.&lt;/p&gt;
+
+&lt;h3 id=&quot;low-impact-stock-popularity-observations&quot;&gt;Low Impact Stock Popularity Observations&lt;/h3&gt;
+&lt;p&gt;We can see that &lt;strong&gt;companies employing large, less educated labour forces&lt;/strong&gt; are the most popular “unethical” investments held by asset managers. As shown in the &lt;em&gt;Popularity of Low Social Impact Stocks&lt;/em&gt; plot, these include a large number of manufacturing and retail companies, including Tesla (TSLA) with a score of 45.05744 and 66 large asset manager investors, Goodyear Tire and Rubber Company (GT) with a score of 45.96831 and 15 large asset manager investors, and TJX Companies (TJX) with a score of 44.58723 and 67 large asset manager investors.&lt;/p&gt;
+
+&lt;p&gt;Similar to the &lt;em&gt;Popularity of High Social Impact Stocks&lt;/em&gt; plot, Blue Chip stocks once again appear. These include stocks such as Sourthern Co (SO) with a social impact score of 44.58723 and 32 large asset manager investors, and Stryker Corporation (SYK).&lt;/p&gt;
+
+&lt;p&gt;We notice that large asset manager investors in general hold far fewer stocks in this category, with each stock individual stock having lower numbers of investors. There are also less stocks displayed in the &lt;em&gt;Popularity of Low Social Impact Stocks&lt;/em&gt; plot compared to the &lt;em&gt;Popularity of High Social Impact Stocks&lt;/em&gt; plot because many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors.&lt;/p&gt;
+
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
+&lt;p&gt;The most popular “ethical” investments are technology companies, with the most popular “unethical” investments being companies that employ large, uneducated labour forces such as manufacturing and retail companies. Blue Chip stocks also appear widely in both high and low impact stock lists. We observe, as an overall pattern, that large asset manager investors hold greater numbers of high impact stocks. However, we acknowledge that the technology companies that dominate the rankings of high social impact stocks have also dominated the financial markets in terms of returns on investment. Thus, an investor could easily end up selecting a portfolio with more high social impact investments simply based on looking for stocks with high historical financial growth - technology companies such as Amazon and Apple.&lt;/p&gt;
 </description>
         <pubDate>Fri, 14 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/investing_for_social_good//assets/2018/12/14/project-2/</link>
@@ -120,11 +124,13 @@ Notice that:&lt;/p&gt;
         <title>Towards Social Good</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This data substory aims to examine if there exists a trend towards social impact investing between 2013 and 2017.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt; &lt;a href=&quot;https://www.sec.gov/cgi-bin/browse-edgar?company=&amp;amp;CIK=&amp;amp;type=13F&amp;amp;owner=include&amp;amp;count=40&amp;amp;action=getcurrent&quot;&gt;SEC asset manager portfolios&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Was there a transition toward investing more into social good then into other projects? If yes, when did it happen?&lt;/li&gt;
+  &lt;li&gt;Was there a transition toward investing more into social good then into other projects?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
@@ -132,42 +138,35 @@ Notice that:&lt;/p&gt;
 &lt;h4 id=&quot;portfolio-social-impact-by-investor-and-year&quot;&gt;Portfolio Social Impact by Investor and Year&lt;/h4&gt;
 
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~dcleres/23.embed&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;The 3-D scatterplot shows the portfolio-wide social impact of institutional investors with over 100M in holders in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
-Observations include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Investors do not seem to be, as a general trend, shifting towards higher social impact investments&lt;/li&gt;
-  &lt;li&gt;Very few investors have relatively high social impact scores, with the majority of investors having relatively much lower scores&lt;/li&gt;
-  &lt;li&gt;Highest portfolio social impact score:
-    &lt;ul&gt;
-      &lt;li&gt;Mirae Asset Global Investments (2013) - 400B Korean Financial Services Group&lt;/li&gt;
-      &lt;li&gt;Rehmann Capital Advisory Group (2015) - Wealth Management Advisory (high networth individuals)&lt;/li&gt;
-      &lt;li&gt;AETNA INC /PA/ (2017) - Healthcare Company&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Lowest portfolio social impact score (all scores of 0):
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=133257895&quot;&gt;Index Management Solutions, LLC (2013)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;http://waterinv.com/&quot;&gt;Water Asset Management, LCC (2015)&lt;/a&gt; - Land and Buildings Investment Management, LCC (2017)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Notice that these investors are all relatively small, LLC, specialized investors focused on very specific verticals such as Water Storage, Real Estate, and investment services&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The 3-D scatterplot shows the portfolio-wide social impact of institutional investors with over $100M in holdings in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital.&lt;/p&gt;
+
+&lt;p&gt;We can see in this visualization the lack changes in portfolio social impact for the asset management industry as a whole (while some individual investors may have changes in their portfolio social impact, investors as an aggregate still result in roughly the same levels of social impact year over year.&lt;/p&gt;
 
 &lt;h4 id=&quot;investor-social-impact-in-2013-vs-2017&quot;&gt;Investor Social Impact in 2013 vs 2017&lt;/h4&gt;
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/25.embed&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;The Scatterplot displays how the social impact of investor portfolios has changed from 2013 to 2017. The graph has 5 layers/traces that can be optionally displayed or removed from the plot by clicking the respective item in the Legend. 
-These layers in order from top to bottom correspond with 1) All 2017 Investor Portfolio Social Impact Scores, 2) 2017 
-Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score from 2013, 3) 2017 
-Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score from 2013, 4) 2013 Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score in 2017, and 5) 2013 Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score in 2017.
-Using these different layers, you can see how the Social Impact of the best and worst Social Impact Investors has changed, or not changed between 2013 and 2017.&lt;/p&gt;
+&lt;p&gt;The Scatterplot displays how the social impact of investor portfolios has changed from 2013 to 2017. In particular, this visualization allows us to see how specific investor portfolio social impact levels have changed year to year by configuring the 5 layers of data traces provided.&lt;/p&gt;
+
+&lt;p&gt;The graph has 5 layers/traces that can be optionally displayed or removed from the plot by clicking the respective item in the Legend on the top right hand corner of the plot.&lt;/p&gt;
+
+&lt;p&gt;Using these different layers, you can see how the Social Impact of the best and worst Social Impact Investors has changed, or not changed between 2013 and 2017.&lt;/p&gt;
+
+&lt;p&gt;For example, if you choose to display the “2017 Investors by Social Impact Scores” in combination with the “Lowest Scoring 2017 Investors in 2013”, you can compare how investors have changed their portfolios in terms of social impact between 2013 and 2017.&lt;/p&gt;
 
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
+&lt;p&gt;We can see that investors do not seem to be, as a general trend, shifting towards higher social impact investments. There are very few investors have relatively high social impact scores, with the majority of investors having relatively much lower scores.&lt;/p&gt;
+
+&lt;p&gt;We observe that the highest portfolio social impact scores correspond to Mirae Asset Global Investments (2013), a $400B Korean Financial Services Group, Rehmann Capital Advisory Group (2015), a Wealth Management Advisory (for high networth individuals), and AETNA INC /PA/ (2017), a Healthcare Company.&lt;/p&gt;
+
+&lt;p&gt;We also observe that the lowest portfolio social impact score (all scores of 0) come from &lt;a href=&quot;https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=133257895&quot;&gt;Index Management Solutions, LLC (2013)&lt;/a&gt; and &lt;a href=&quot;http://waterinv.com/&quot;&gt;Water Asset Management, LCC (2015)&lt;/a&gt; - Land and Buildings Investment Management, LCC (2017).&lt;/p&gt;
+
+&lt;p&gt;Notice that the highest and lowest scoring investors are all relatively small, LLC, specialized investors focused on very specific verticals such as Water Storage, Real Estate, and investment services. It it likely that larger investors hold more broadly diversified portfolios that reduce their overall correlation to social impact score variables.&lt;/p&gt;
+
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;It seems like while a small minority of investors have adopted specialized strategies towards increasing social impact, most have not decided that predominantly social impact oriented portfolios related to successful investment returns. There does not seem to be an overall transition towards social impact investing. Although we can definitely see that the the largest, most successful investors are not among the worst at investing for social impact, this may be due to for example owning larger numbers of successful technology company stocks such as Apple and Microsoft that also tend to have produced incredibly high financial returns, instead of deliberate efforts to adopt investment portfolios that are more socially impactful.&lt;/p&gt;
+
+&lt;p&gt;We also conclude that large investors have greater pressures to diversify their portfolios of investments (not owning all the same types of stocks) due to the need to reduce investment risk (likelihood of all stocks in a portfolio simultaneously dropping in value). Thus, it is understandable that it is rare for the largest asset managers to have portfolios with the highest or lowest social impact scores. This logic also explains why it is difficult for the largest asset managers, who need to keep their portfolios sufficiantly diversified, to make significant year over year changes to their portfolio-wide social impact.&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/investing_for_social_good//history/2018/12/12/project-7/</link>
