@@ -1,5 +1,9 @@
 # Investing for Social Good
 
+Check out [our website](https://dcleres.github.io/investing_for_social_good) for our data story, and interactive visualizations. 
+
+Check out [our notebook](https://github.com/dcleres/investing_for_social_good/blob/master/milestone_3_notebook.ipynb) to see the process and computation behind our project. 
+
 # Abstract
 *"Society is demanding that companies, both public and private, serve a social purpose. To prosper over time, every company must not only deliver financial performance but also show how it makes a positive contribution to society."* - Laurence D. Fink, CEO BlackRock (largest asset manager in the world)
 
