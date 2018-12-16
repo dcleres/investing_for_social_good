@@ -92,7 +92,7 @@ Everyone will work on the final presentation to make the poster and structure it
     - [x] Comparison of this information on the score
   - Task Group 4 - Answer to the Research Questions 
     - [X] Answer the questions
-    - [ ] Define the biases of our analysis
+    - [X] Define the biases of our analysis
      
 #### Questions for TA's
 
