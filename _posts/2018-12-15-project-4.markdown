@@ -30,17 +30,35 @@ What asset managers have the portfolios with the greatest/least social impact?
 
 
 ![Logo Jekyll]({{site.baseurl}}/img/portfolio/a.png)
+
+In the histogram above, we observe the frequency at which US dollars (in millions) are invested per investor. Investors in this context, as in the rest of this data story, are large asset manager investors with holdings of at least $100M. We can see an overwhelming preference by these investors to invest under one million dollars. The frequency of investments over one million dollars is difficult to see, so we remove outliers before continuing to explore this data in the graphs below. 
+
 ![Logo Jekyll]({{site.baseurl}}/img/portfolio/b.png)
+
+In the boxplot above, we observe the distribution of US dollars invested per investor, after the removal of outliers. We can see that the median investment is still under one million dollars; however, we can see that the interquartile range of the boxplot ranges from around half a million to three million dollars. This means that  investments of less than one million dollars are as common as those from half a million to three million dollars. Thus, by removing outliers we can see there is still a significant number of investments being made using amounts of half a million to three million dollars.
+
 ![Logo Jekyll]({{site.baseurl}}/img/portfolio/c.png)
+
+In the histogram above, we observe the frequency at which US dollars (in millions) are invested per investor, with outliers removed. Unlike in the previous histogram above, we can more clearly see the frequency at which amounts of US dollars greater than one million dollars are invested. we see that as the amount in US dollars increases, the frequency at which those amounts are invested tends to decrease. The frequency of US dolar amounts invested goes up slightly at five million and six to seven million dollars, but does not surpass the frequency of US dollar amounts invested at three million dollars.  
+
 ![Logo Jekyll]({{site.baseurl}}/img/portfolio/d.png)
+
+In the boxplot above, we can see the distribution of Just Capital company social impact scores. We see, in the overall social impact score, that most companies have a score of between 40 and 60, out of 100 points, with the median being 50 points. Observe that outliers in the overall company social impact score exist above 60 points, and that conponent social impact scores (customer, environment, jobs, etc social impact component scores that feed into the overall social impact score) also have medians of around 50 points. 
+
 ![Logo Jekyll]({{site.baseurl}}/img/portfolio/e.png)
+
+In the histogram above, we can see the frequncy of weighted portfolio-wide social impact scores per investor. 
+
+The weighted portfolio social score per investor is created by aggregating the individual scores of investments held by an investor on a weighted average basis according to the portfolio percentage of each investment. For example, an investor with a portfolio of stock A and stock B, where the investor's portfolio is 40% stock A and 60% stock B, and stock A and B have social impact scores of 50 and 60 would have a weighted portfolio social impact score of 56 (40% x 50 + 60% x 60 = 56). 
+
+The histogram shows that most investor portfolios have a social impact score of 14 points. The frequency of investor portfolios with scores of more than 14 points drops significantly (by almost half at 15 points), and continues to drop in a linear fashion until 45 points. Thus, large asset management investors have predominantly low portfolio social impact scores. 
 
 
 #### 2017 Investor Portfolios by Social Impact
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mike.jiao/10.embed"></iframe>
 
-We can observe in the 2-D Scatterplot above, focused on 2017 data, the variation in Investor Portfolio social impact amoung large ($100M+) asset managers. We see that the distribution of portfolio social impact is bimodal, with most investors having very low portfolio social impact scores (below 10 points), followed by a second, smaller group with very high scores (above 30 points). This suggests that there is no clear consensus amoung the asset management community in the need for them to implement social impact maximizing or minimizing portfolio investment strategies. 
+We can observe in the 2-D Scatterplot above, focused on 2017 data, the variation in Investor Portfolio social impact amoung large ($100M+) asset managers. We see from the distribution of portfolio social impact scores that  most investors have very low portfolio social impact scores (around 14 points). This is followed by smaller groups with scores higher than 20 points. This suggests that there is no clear consensus amoung the asset management community in the need for them to implement social impact maximizing or minimizing portfolio investment strategies. 
 
 ## Discussion 
 We see that, for example, the lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends such as societal pressures to be more socially impactful. 
