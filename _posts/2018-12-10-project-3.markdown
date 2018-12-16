@@ -49,7 +49,11 @@ Here is some paramter of the graph plot. There are 4887 compagnies/investors lin
 It contains one huge connected component. The largest component has  2517 nodes accounting for 100 % of the nodes and the longest shortest path between any two actors in the giant component is 7 It's also called the diameter. 
 
 Here is the plot of the Degree distribution plot :
+
+
 ![download-1](../img/portfolio/degree_plot.png)
+
+
 We observe that a small number of actors have a really high degree and that the majority of actors have small degree next to 0. It means that there are few really import actors compare to the others.
 
 To finish this small graph analysis, we calculated the Homophily which is like correlation, but translated into graphs. 
@@ -60,6 +64,7 @@ We found that all homophily coefficient are around 0. In means thaht there is no
 #### Graph plot taking into account the degree and the sentiment analysis score :
 
 ![download-1](../img/ecran.png)
+
 The size of the node is scale in function of the degree of the node. Moreover, the color is given by the different sentiment analysis scores.
 
 
