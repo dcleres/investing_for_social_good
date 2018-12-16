@@ -58,7 +58,7 @@ The histogram shows that most investor portfolios have a social impact score of 
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mike.jiao/10.embed"></iframe>
 
-We can observe in the 2-D Scatterplot above, focused on 2017 data, the variation in Investor Portfolio social impact amoung large ($100M+) asset managers. We see from the distribution of portfolio social impact scores that  most investors have very low portfolio social impact scores (around 14 points). This is followed by smaller groups with scores higher than 20 points. This suggests that there is no clear consensus amoung the asset management community in the need for them to implement social impact maximizing or minimizing portfolio investment strategies. 
+We can observe in the 2-D Scatterplot above, focused on 2017 data, the variation in Investor Portfolio social impact amoung specific large ($100M+) asset managers. We can hover our mouse over specific data points to identify specific investors and their scores. We see from the distribution of portfolio social impact scores that  most investors have very low portfolio social impact scores (around 14 points). This is followed by smaller groups with scores higher than 20 points. This suggests that there is no clear consensus amoung the asset management community in the need for them to implement social impact maximizing or minimizing portfolio investment strategies. 
 
 ## Discussion 
 We see that, for example, the lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends such as societal pressures to be more socially impactful. 
