@@ -16,9 +16,9 @@ description: An overview
 ---
 
 # Introduction
+This first substory aims to show the general information we were able to extract from the SEC dataset.
 
-
-**Used Dataset:**
+**Used Dataset:** [SEC asset manager portfolios](https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent)
 
 
 ## Research Question

@@ -6,15 +6,16 @@
  - Laurence D. Fink, CEO BlackRock</description>
     <link>http://localhost:4000/investing_for_social_good//</link>
     <atom:link href="http://localhost:4000/investing_for_social_good//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Dec 2018 04:54:19 +0100</pubDate>
-    <lastBuildDate>Sun, 16 Dec 2018 04:54:19 +0100</lastBuildDate>
+    <pubDate>Sun, 16 Dec 2018 11:34:19 +0100</pubDate>
+    <lastBuildDate>Sun, 16 Dec 2018 11:34:19 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Who owns Who?</title>
         <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;This first substory aims to show the general information we were able to extract from the SEC dataset.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt; &lt;a href=&quot;https://www.sec.gov/cgi-bin/browse-edgar?company=&amp;amp;CIK=&amp;amp;type=13F&amp;amp;owner=include&amp;amp;count=40&amp;amp;action=getcurrent&quot;&gt;SEC asset manager portfolios&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
 &lt;p&gt;What asset managers have the portfolios with the greatest/least social impact?&lt;/p&gt;
