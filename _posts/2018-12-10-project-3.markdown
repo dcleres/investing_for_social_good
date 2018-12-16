@@ -45,14 +45,12 @@ Then, when you click on the legend to remove all categories with fill null value
 This graph illustrate the dependency between sentiment analysis score and Just capital score. In fact, the conclusion is that sentiment analysis score is not so correlated with just capital scores.
 
 ### Graph analysis :
-Here is some paramter of the graph plot. There are 4887 compagnies/investors linked with 16914 edges in total. The sparsity of the plot is 0.0052 which means that the graph is really dense.
+Here is some parameters of the graph plot. There are 4887 compagnies/investors linked with 16914 edges in total. The sparsity of the plot is 0.0052 which means that the graph is really dense.
 It contains one huge connected component. The largest component has  2517 nodes accounting for 100 % of the nodes and the longest shortest path between any two actors in the giant component is 7 It's also called the diameter. 
 
 Here is the plot of the Degree distribution plot :
 
-
-
-![Logo Jekyll]({{site.baseurl}}/img/portfolio/degree_plot/c.png)
+![Logo Jekyll]({{site.baseurl}}/img/portfolio/degree_plot.png)
 
 
 We observe that a small number of actors have a really high degree and that the majority of actors have small degree next to 0. It means that there are few really import actors compare to the others.
@@ -64,7 +62,7 @@ We found that all homophily coefficient are around 0. In means thaht there is no
 
 #### Graph plot taking into account the degree and the sentiment analysis score :
 
-![Logo Jekyll]({{site.baseurl}}/img/ecran/c.png)
+![Logo Jekyll]({{site.baseurl}}/img/ecran.png)
 
 The size of the node is scale in function of the degree of the node. Moreover, the color is given by the different sentiment analysis scores.
 
