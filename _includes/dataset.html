@@ -1,0 +1,70 @@
+<section id="data_story" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Datasets</h2>
+                <h3 class="section-subheading text-muted">
+                    The U.S. Securities and Exchange Commission (SEC) dataset
+                </h3>
+                    <h4 class="introduction-heading">
+                        <p style="text-align:justify">
+                            For this project, two datatsets were used. The first dataset consisted of the
+                            <a href="https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent">U.S. Securities
+                                and Exchange Commission (SEC)</a> archives. It was possible generate a
+                            .csv-like file listing, by company and date since the URLs in the SEC's archives, where the
+                            investment portfolio filings are stored, has consistently structured text and HTML table data.
+                            We were able to automate the extraction and so to get the type and scope of different types of asset
+                            manager investment holdings (what companies they invested in, the size and value of each investment).
+                            This data can be enriched by processing additional social data from twitter related to portfolio companies
+                            into signals of their social impact and mapping these social impact signals to investment portfolios.
+                            <br>
+                            Based on this data from investment portfolio filings, we could identify and analyze investments
+                            made in companies that pursue goals related to social good from all different kinds of industries.
+                            <br>
+                            Nevertheless, one need to be careful with the interpretation of the data. This data set contained
+                            biases that one need to be aware of before drawing general conclusions from the data.
+                            First, the data is collected quarterly and contains information about all the major players
+                            of the US stock market. It would have been interesting to have the same kind of information
+                            about Switzerland and the rest of the world also. However, the SEC dataset was the most
+                            complete and consistent information we were able to find. Therefore, any conclusion that we could
+                            make is likely to be true from the USA but not necessarily for the rest of the world. <br>
+
+                            Secondly, the dataset contains only the institutional investment managers with holdings over 100M <br>
+
+                            Furthermore, the <i>13F form</i> is required to be filed within 45 days of the end of a calendar quarter
+                            (which should be considered as significant information latency) only reports long positions
+                            (not short) different investment managers pursue different strategies with may bias results.
+                            However, the vast majority of investment managers rely significantly on long positions for significant
+                            portion of fund performance. <br>
+
+                            Another drawback is that the 13F form does not reveal international holdings (except for
+                            American depositary receipts) and excludes total portfolio value and percentage allocation of
+                            each stock listed <br>
+
+                            The Section 13(f) securities generally include equity securities that trade on an exchange (including Nasdaq),
+                            certain equity options and warrants, shares of closed-end investment companies, and certain convertible debt securities.
+                            Shares of open-end investment companies (i.e. mutual funds) are not Section 13(f) securities
+                            <a href="https://www.sec.gov/divisions/investment/13flists.htm">The official list of qualifying securities</a>
+                            <br>
+
+                            Finally, it is necessery to point out at 13F does not represent the whole portfolio of the investos - it's a past snapshot.
+                        </p>
+                    </h4>
+                    <h3 class="section-subheading text-muted">
+                        The Twitter dataset
+                    </h3>
+                    <h4 class="introduction-heading">
+                        <p style="text-align:justify">
+                            The twitter dataset consisted of the tweet from 2017. The research question that needed enrichment
+                            with social media data were all focused on the evolution throughout time of the opinion regarding
+                            selected companies. Therefore, we did not need to take the data from everyday. It was decided
+                            that it would be wiser and sufficient to take 10-days samples through the year 2017. This made
+                            the calculation feasible in Pandas.
+                            Since we were looking for information about investors and companies in the USA, we decided to
+                            only look at the tweet in English. This reduces the number of tweet per day by roughly 70% the majority
+                            of the Tweet are written in the mother tongue of the user (Chinese, Japanese, German, ...)
+                        </p>
+                    </h4>
+            </div>
+        </div>
+</section>
