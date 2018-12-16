@@ -860,7 +860,13 @@
 
 <h4 id="general-overview-and-cleaning">General Overview and Cleaning</h4>
 
-<p>![alt text][../img/results_plots/download-1.png]</p>
+<p><img src="../img/results_plots/download-1.png" alt="download-1" /></p>
+
+<p><img src="../img/results_plots/download-5.png" alt="download-2" /></p>
+
+<p><img src="../img/results_plots/download-3.png" alt="download-3" /></p>
+
+<p><img src="../img/results_plots/download-4.png" alt="download-4" /></p>
 
 <h4 id="2017-investor-portfolios-by-social-impact">2017 Investor Portfolios by Social Impact</h4>
 
@@ -1200,11 +1206,17 @@ Many investors who seek to avoid what they consider to be unethical investments 
                             <br>
                             <p> <h2 id="introduction">Introduction</h2>
 
-<p><strong>Used Dataset:</strong> The raw dataset was composed of all the tweets from 2017. Since the focus of this section was to link feelings that customers 
-                 express on Twitter regarding companies through time. For this reason, the twitter data was sampled in 10-days intervals.</p>
+<p>Public opinion is a important criteria to choose a investement. In fact, each investement will be a part of the identity of the inve stor and public opinion could really sustain some investement and criticize others.
+It is thus interesting to correlate the greater public’s interest into social good projects expressed on social media platforms such as Twitter and Facebook, or news platforms, with the actual investments that are done. 
+To add the public opinion part, sentiment analysis was done on tweet from 2017. In fact, sentiment analysis is contextual mining of text which identifies and extracts subjective information in source material, and helping a business to understand the social sentiment of their brand, product or service while monitoring online conversations. In this part of the data story, the text classifier process tool was used to analyses an incoming message and tells whether the underlying sentiment is positive, negative our neutral.</p>
+
+<p><strong>Used Dataset:</strong> The raw dataset was composed of all the tweets from 2017. 
+First of all, output of the last part where taken and mix with a new dataset which is the Twitter dataset given in the course. It contains the tweets of 2017 and it’s store on the ADA cluster. The documentation of Twitter API was analyzed to understand how to use this database. The group decided to work on a selected part of the entire dataset. In fact, our goal is to score the public’s opinion of compagnies thanks to a sentiment analysis done over tweets of 2017. To do that we decide to take just tweet corresponding to 3 days per month. English tweets were filter as our analysis is made on Americans compagnies. We thus care more about the public opinion of English speaking population as they are more impacted by theses compagnies. For each month, we take always the same days : the 1th, the 11th one and the 21th. Then a preprocessing part corresponding to the cleaning of the tweets and the creation of dictionaries was done. Moreover, we link each tweets to compagny. To do that a easy rule was used : a tweet concerned a company if the name of the company is present in the tweet text or in the tweet tags.</p>
 
 <h2 id="research-question">Research Question</h2>
-<p>How to map news article sentiments to specific investments held by companies?</p>
+<p>How to make a ranking of “public opinion” regarding a company?
+What is the great public’s opinion regarding the companies and investors ? 
+Just capital ranking is one thing. This metrics is complex and tries to take into account a high number of variables. But it just capital score correlated with public opinion ? It means that we will try to understand the public’s opinion regarding the companies that held many investments in social good versus those who do not invest in social good?</p>
 
 <h2 id="results">Results</h2>
 

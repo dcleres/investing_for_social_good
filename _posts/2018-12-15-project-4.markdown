@@ -26,9 +26,16 @@ What asset managers have the portfolios with the greatest/least social impact?
 
 ## Results 
 
-#### General Overview and Cleaning 
+#### General Overview and Cleaning
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![download-1](../img/results_plots/download-1.png)
+
+![download-2](../img/results_plots/download-5.png)
+
+![download-3](../img/results_plots/download-3.png)
+
+![download-4](../img/results_plots/download-4.png)
+
 
 
 #### 2017 Investor Portfolios by Social Impact
