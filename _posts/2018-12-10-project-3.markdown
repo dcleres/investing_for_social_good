@@ -51,7 +51,8 @@ It contains one huge connected component. The largest component has  2517 nodes 
 Here is the plot of the Degree distribution plot :
 
 
-![download-1](../img/portfolio/degree_plot.png)
+
+![Logo Jekyll]({{site.baseurl}}/img/portfolio/degree_plot/c.png)
 
 
 We observe that a small number of actors have a really high degree and that the majority of actors have small degree next to 0. It means that there are few really import actors compare to the others.
@@ -63,7 +64,7 @@ We found that all homophily coefficient are around 0. In means thaht there is no
 
 #### Graph plot taking into account the degree and the sentiment analysis score :
 
-![download-1](../img/ecran.png)
+![Logo Jekyll]({{site.baseurl}}/img/ecran/c.png)
 
 The size of the node is scale in function of the degree of the node. Moreover, the color is given by the different sentiment analysis scores.
 
