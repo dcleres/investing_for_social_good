@@ -18,7 +18,7 @@ description: Financial asset is a non-physical asset whose value is derived from
 
 This data substory aims to understand the types of investments asset management investors favor, and to examine the motivations behind asset manager's investments into the best and worst social impact investments.
 
-###The Ethical Puzzle
+### The Ethical Puzzle
 
 Although the definition of ethical investing could be stated as simply purchasing investments from issuers who act ethically, 
 investors who seek to achieve this must first establish a set of criteria that can be used to determine what actions and 
