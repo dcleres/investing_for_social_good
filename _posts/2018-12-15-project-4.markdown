@@ -27,20 +27,28 @@ What asset managers have the portfolios with the greatest/least social impact?
 ## Results 
 
 #### General Overview and Cleaning
-![My helpful screenshot]({{ site.baseurl }}/img/portfolio/a.png)
-![My helpful screenshot]({{ site.baseurl }}/img/portfolio/b.png)
-![My helpful screenshot]({{ site.baseurl }}/img/portfolio/c.png)
-![My helpful screenshot]({{ site.baseurl }}/img/portfolio/d.png)
-![My helpful screenshot]({{ site.baseurl }}/img/portfolio/e.png)
+
+![download-1](../img/results_plots/download-1.png)
+
+![download-2](../img/results_plots/download-5.png)
+
+![download-3](../img/results_plots/download-3.png)
+
+![download-4](../img/results_plots/download-4.png)
+
+
 
 #### 2017 Investor Portfolios by Social Impact
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mike.jiao/10.embed"></iframe>
 
-The 2-D Scatterplot focus in on year 2017 data from the previous 3-D scatterplot.
-- The lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends 
-
+We can observe in the 2-D Scatterplot above, focused on 2017 data, the variation in Investor Portfolio social impact amoung large ($100M+) asset managers. We see that the distribution of portfolio social impact is bimodal, with most investors having very low portfolio social impact scores (below 10 points), followed by a second, smaller group with very high scores (above 30 points). This suggests that there is no clear consensus amoung the asset management community in the need for them to implement social impact maximizing or minimizing portfolio investment strategies. 
 
 ## Discussion 
+We see that, for example, the lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends such as societal pressures to be more socially impactful. 
+
+On the other end of the spectrum, the highest scoring investor, Aetna Inc, is a healthcare company, and is thus intrensically driven to invest based on values aligned with social impact outcomes (i.e., improvements to medical technology, social services, etc).
 
 ## Conclusion
+
+After examining the specific organizations behind both the most and least socially impactful investors, on a portfolio-wide basis, we can see that the extent of their social impact can be largely explained by investor-specific attributes, such as specific profit-maximizing investment strategies, and organizational values. This suggests that the lack of a clear consensus amoung asset managers towards the need to make explicitly social-impact oriented decisions comes from a lack of motivation to make such decisions. Given the lack of transparency public stakeholders have into the investment activities and social impact of asset managers, it is not surprising for us to see that asset managers are not motivated as a whole to consider social impact explicitly in their investment strategies, even as public stakeholder support of social impact investments grows.

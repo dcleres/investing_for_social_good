@@ -16,41 +16,46 @@ description: Social good project benefit
 
 ## Introduction
 
-**Used Dataset:**
+This data substory aims to examine if there exists a trend towards social impact investing between 2013 and 2017. 
+
+**Used Dataset:** [SEC asset manager portfolios](https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent)
 
 ## Research Question
-- Was there a transition toward investing more into social good then into other projects? If yes, when did it happen? 
+- Was there a transition toward investing more into social good then into other projects? 
 
 ## Results 
 
 #### Portfolio Social Impact by Investor and Year
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~dcleres/23.embed"></iframe>
-The 3-D scatterplot shows the portfolio-wide social impact of institutional investors with over 100M in holders in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
-Observations include: 
-- Investors do not seem to be, as a general trend, shifting towards higher social impact investments
-- Very few investors have relatively high social impact scores, with the majority of investors having relatively much lower scores
-- Highest portfolio social impact score: 
-	- Mirae Asset Global Investments (2013) - 400B Korean Financial Services Group 
-	- Rehmann Capital Advisory Group (2015) - Wealth Management Advisory (high networth individuals)
-    - AETNA INC /PA/ (2017) - Healthcare Company
-- Lowest portfolio social impact score (all scores of 0): 
-	- [Index Management Solutions, LLC (2013)](https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=133257895)
-    - [Water Asset Management, LCC (2015)](http://waterinv.com/) - Land and Buildings Investment Management, LCC (2017)
+The 3-D scatterplot shows the portfolio-wide social impact of institutional investors with over $100M in holdings in a sample of three years between 2013 and 2018 (2013, 2015, and 2017). Portfolio-wide social impact is measured using a score computed as a weighted average of a portfolio’s individual stocks’ social impact. The score is computed using the portfolio weight percentage of each stock declared in SEC 13F filings, and individual stock social impact scores computed by Just Capital. 
 
-    - Notice that these investors are all relatively small, LLC, specialized investors focused on very specific verticals such as Water Storage, Real Estate, and investment services 
+We can see in this visualization the lack changes in portfolio social impact for the asset management industry as a whole (while some individual investors may have changes in their portfolio social impact, investors as an aggregate still result in roughly the same levels of social impact year over year. 
+
 
 #### Investor Social Impact in 2013 vs 2017
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mike.jiao/25.embed"></iframe>
 
-The Scatterplot displays how the social impact of investor portfolios has changed from 2013 to 2017. The graph has 5 layers/traces that can be optionally displayed or removed from the plot by clicking the respective item in the Legend. 
-These layers in order from top to bottom correspond with 1) All 2017 Investor Portfolio Social Impact Scores, 2) 2017 
-Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score from 2013, 3) 2017 
-Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score from 2013, 4) 2013 Investor Portfolio Social Impact Scores for the top 10% of Investors by Portfolio Social Impact Score in 2017, and 5) 2013 Investor Portfolio Social Impact Scores for the bottom 10% of Investors by Portfolio Social Impact Score in 2017.
+The Scatterplot displays how the social impact of investor portfolios has changed from 2013 to 2017. In particular, this visualization allows us to see how specific investor portfolio social impact levels have changed year to year by configuring the 5 layers of data traces provided. 
+
+The graph has 5 layers/traces that can be optionally displayed or removed from the plot by clicking the respective item in the Legend on the top right hand corner of the plot. 
+
 Using these different layers, you can see how the Social Impact of the best and worst Social Impact Investors has changed, or not changed between 2013 and 2017. 
+
+For example, if you choose to display the "2017 Investors by Social Impact Scores" in combination with the "Lowest Scoring 2017 Investors in 2013", you can compare how investors have changed their portfolios in terms of social impact between 2013 and 2017. 
 
 
 ## Discussion 
 
+We can see that investors do not seem to be, as a general trend, shifting towards higher social impact investments. There are very few investors have relatively high social impact scores, with the majority of investors having relatively much lower scores. 
+
+We observe that the highest portfolio social impact scores correspond to Mirae Asset Global Investments (2013), a $400B Korean Financial Services Group, Rehmann Capital Advisory Group (2015), a Wealth Management Advisory (for high networth individuals), and AETNA INC /PA/ (2017), a Healthcare Company. 
+
+We also observe that the lowest portfolio social impact score (all scores of 0) come from [Index Management Solutions, LLC (2013)](https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=133257895) and [Water Asset Management, LCC (2015)](http://waterinv.com/) - Land and Buildings Investment Management, LCC (2017).
+
+Notice that the highest and lowest scoring investors are all relatively small, LLC, specialized investors focused on very specific verticals such as Water Storage, Real Estate, and investment services. It it likely that larger investors hold more broadly diversified portfolios that reduce their overall correlation to social impact score variables.  
+    
 ## Conclusion
 It seems like while a small minority of investors have adopted specialized strategies towards increasing social impact, most have not decided that predominantly social impact oriented portfolios related to successful investment returns. There does not seem to be an overall transition towards social impact investing. Although we can definitely see that the the largest, most successful investors are not among the worst at investing for social impact, this may be due to for example owning larger numbers of successful technology company stocks such as Apple and Microsoft that also tend to have produced incredibly high financial returns, instead of deliberate efforts to adopt investment portfolios that are more socially impactful.
+
+We also conclude that large investors have greater pressures to diversify their portfolios of investments (not owning all the same types of stocks) due to the need to reduce investment risk (likelihood of all stocks in a portfolio simultaneously dropping in value). Thus, it is understandable that it is rare for the largest asset managers to have portfolios with the highest or lowest social impact scores. This logic also explains why it is difficult for the largest asset managers, who need to keep their portfolios sufficiantly diversified, to make significant year over year changes to their portfolio-wide social impact. 
