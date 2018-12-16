@@ -33,11 +33,11 @@ Regarding the dataset on Kaggle, we took a closer look to the comments made abou
 The Twitter data is a dataset provided by the course so we are confident that there should not be too many insolvable issues and the data does not look *too bad*. The documentation of Twitter API was analyzed to understand how to use this database. First, determination of a dictionary of keywords linked to our subject will be done (and possibly Machine Learning algorithms will be used to broaden it throughout work process). Finally, the tweets will be filtered thanks to the buolt dictionary in order to construct the dataset of interest.
 
 # Contributions
-* **David Cleres:** Data collection, cleaning, and visualization for Twitter Data and Stock location data, Website with Data Story
-* **Mike Jiao:** Data collection, cleaning, and visualization for SEC 13F filings
-* **Nicholas Lesimple:** Data cleaning, and visualization for Twitter Data
+* **David Cleres:** Data collection, cleaning, and visualization for Twitter Data and Stock location data, Website with Data Story, Website styling, Website site writing pages, and website correction, final presentation.
+* **Nicholas Lesimple:** Data cleaning, visualization for Twitter Data, sentiment analysis processing, Website writing pages and Website site correction, final presentation.
+* **Mike Jiao:** Data collection, cleaning, and visualization for SEC 13F filings, final presentation.
 
-Everyone will work on the final presentation.
+Everyone will work on the final presentation to make the poster and structure it. Then one of us will be taken to present the work.
 
 
 # A list of internal Milestones of the project
@@ -74,24 +74,24 @@ Everyone will work on the final presentation.
 - From the knowledge acquired in MS1, we were able to define the following goals for the next milestone: 
   - Task Group 1 - Tasks left from MS1 
     - [x] Determine a dictionary of keywords linked to emotion and opinion identifiers regarding companies
-    - [ ] Decide which visualizations formats serve the best our purpose when the data will be shown on the online platform of choice
+    - [X] Decide which visualizations formats serve the best our purpose when the data will be shown on the online platform of choice
       - See on D3.JS --> [D3 Force-Directed Graph](https://beta.observablehq.com/@mbostock/d3-force-directed-graph). Make one plot for the investors and in which domain they do invest. 
       - Just for fun : https://bl.ocks.org/mbostock/3231298
       - Interesting idea : https://www.theguardian.com/world/interactive/2013/feb/12/state-of-the-union-reading-level
   - Task Group 2 - Implementation of an Online Platform for the data story 
-    - [ ] Collect information about flask 
-    - [ ] Collect information about ReactJS
-    - [ ] Explore informations about Jekyll
-    - [ ] Explore the hosting opportunities of GitHub Pages (free solution) 
-    - [ ] Find a suitable layout that works with the project 
-    - [ ] Organise the content of the webpage (find goos titles and enhance the user experience while being on the website
+    - [X] Collect information about flask 
+    - [X] Collect information about ReactJS
+    - [X] Explore informations about Jekyll
+    - [X] Explore the hosting opportunities of GitHub Pages (free solution) 
+    - [X] Find a suitable layout that works with the project 
+    - [X] Organise the content of the webpage (find goos titles and enhance the user experience while being on the website
   - Task Group 3 - Sentiment Analysis - *This task was started in MS2. However, we need to be careful about the implementation since being mentionned positively on Twitter or in the News does not necessarily mean that the company is investing in social good. Therefore, to have a proper scoring we need more then the 2 weeks (and homework 4) that we had until now.*
     - [x] NLP enhencement for Twitter dataset 
     - [ ] NLP enhencement for News dataset [CANCELLED]
-    - [ ] Integration of this information in the score calculation 
-        - Make a bibliography of the different scoring solution that we saw and explored and why we chose the one we use. 
+    - [ ] Integration of this information in the score calculation [CANCELLED]
+    - [x] Comparison of this information on the score
   - Task Group 4 - Answer to the Research Questions 
-    - [ ] Answer the questions
+    - [X] Answer the questions
     - [ ] Define the biases of our analysis
      
 #### Questions for TA's
