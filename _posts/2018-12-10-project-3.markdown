@@ -31,6 +31,18 @@ Just capital ranking is one thing. This metrics is complex and tries to take int
 
 ## Results 
 
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~lesimplen/1.embed"></iframe>
+
+
 ## Discussion 
 
+Unfortunatly, in this sentiment analysis, some bias can be highlighted.
+First of all, with the twitter dataset consisted of the tweet from 2017 we wanted to gives a indication of the public opinion per compagnies/investors. Therefore, we did not need to take the data from everyday. It was decided that it would be wiser and sufficient to take 10-days samples through the year 2017. This made the calculation feasible in Pandas. Since we were looking for information about investors and companies in the USA, we decided to only look at the tweet in English. This reduces the number of tweet per day by roughly 70% the majority of the Tweet are written in the mother tongue of the user (Chinese, Japanese, German, ...). All theses assumptions can create bias.
+Moreover, to link tweets and and compagnies/investors names, we search in tweets text and tags the name of the corresponding actors. This method makes senses but as language is a really complex process with a lot of possibilities, some tweets corresponding to one categorical compagny/investor could have not being linked.
+To conlude this discussion, fastText method gives labels from 1 (negative sentence) to 5 (positive sentence) which is not a score between -1 and 1. Thus, we decide to add this labels number as integer and do a mean. In fact we choose the mean to penalized well extreme values. This way of creating a score can introduce a bias as the method is not made for that. Scores for actors with one tweet would be less robust than with several tweets.
+
 ## Conclusion
+
+By having all theses potential bias in mind, we could draw conclusion from the analysis of the results.
+
+A COMPLETER
