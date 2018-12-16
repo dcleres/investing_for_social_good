@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="04198835-93c9-44bc-ba49-2050281fd6bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-15-project-4.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-12-15-project-4.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/results_plots/download-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/results_plots/download-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/results_plots/download-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/results_plots/download-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/results_plots/download-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/results_plots/download-5.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -127,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -149,8 +141,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-12-15-project-4.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="495">
-                <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+              <first_editor relative-caret-position="525">
+                <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
               </first_editor>
               <second_editor />
             </state>
@@ -234,17 +226,6 @@
               <item name="investing_for_social_good" type="b2602c69:ProjectViewProjectNode" />
               <item name="investing_for_social_good" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="investing_for_social_good" type="b2602c69:ProjectViewProjectNode" />
-              <item name="investing_for_social_good" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="investing_for_social_good" type="b2602c69:ProjectViewProjectNode" />
-              <item name="investing_for_social_good" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -301,12 +282,12 @@
       <workItem from="1544535897645" duration="8876000" />
       <workItem from="1544666417490" duration="3019000" />
       <workItem from="1544871190807" duration="445000" />
-      <workItem from="1544899692491" duration="12789000" />
+      <workItem from="1544899692491" duration="13080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35140000" />
+    <option name="totallyTimeSpent" value="35431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -595,15 +576,15 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-12-15-project-4.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="495">
-            <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+          <first_editor relative-caret-position="525">
+            <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
           </first_editor>
           <second_editor />
         </state>
