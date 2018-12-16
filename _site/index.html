@@ -1218,9 +1218,20 @@ Just capital ranking is one thing. This metrics is complex and tries to take int
 
 <h2 id="results">Results</h2>
 
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~lesimplen/1.embed"></iframe>
+
 <h2 id="discussion">Discussion</h2>
 
+<p>Unfortunatly, in this sentiment analysis, some bias can be highlighted.
+First of all, with the twitter dataset consisted of the tweet from 2017 we wanted to gives a indication of the public opinion per compagnies/investors. Therefore, we did not need to take the data from everyday. It was decided that it would be wiser and sufficient to take 10-days samples through the year 2017. This made the calculation feasible in Pandas. Since we were looking for information about investors and companies in the USA, we decided to only look at the tweet in English. This reduces the number of tweet per day by roughly 70% the majority of the Tweet are written in the mother tongue of the user (Chinese, Japanese, German, …). All theses assumptions can create bias.
+Moreover, to link tweets and and compagnies/investors names, we search in tweets text and tags the name of the corresponding actors. This method makes senses but as language is a really complex process with a lot of possibilities, some tweets corresponding to one categorical compagny/investor could have not being linked.
+To conlude this discussion, fastText method gives labels from 1 (negative sentence) to 5 (positive sentence) which is not a score between -1 and 1. Thus, we decide to add this labels number as integer and do a mean. In fact we choose the mean to penalized well extreme values. This way of creating a score can introduce a bias as the method is not made for that. Scores for actors with one tweet would be less robust than with several tweets.</p>
+
 <h2 id="conclusion">Conclusion</h2>
+
+<p>By having all theses potential bias in mind, we could draw conclusion from the analysis of the results.</p>
+
+<p>A COMPLETER</p>
 </p>
                             <ul class="list-inline item-details">
                                 <li> Client:
@@ -1271,22 +1282,36 @@ Just capital ranking is one thing. This metrics is complex and tries to take int
                             <br>
                             <p> <h2 id="introduction">Introduction</h2>
 
-<p><strong>Used Dataset:</strong></p>
+<p>Thanks to the provious substories. We were able to rank assets according to their “social good” value. All these companies 
+certainly come from different states in the US and we wanted to know if certain regions of the USA have more asseets invested
+in social good project. For instance one could think that innovative regions like California should have higher investments 
+than states which are know for their large amount of conservative people.</p>
+
+<p><strong>Used Dataset:</strong> <a href="https://www.sec.gov/cgi-bin/browse-edgar?company=&amp;CIK=&amp;type=13F&amp;owner=include&amp;count=40&amp;action=getcurrent">SEC asset manager portfolios</a></p>
 
 <h2 id="research-question">Research Question</h2>
 <p>Where are the most ethical assets?</p>
 
-<h2 id="libraries--methods">Libraries &amp; Methods</h2>
-
-<h4 id="choices-mades">Choices Mades</h4>
-
 <h2 id="results">Results</h2>
-
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~dcleres/21.embed"></iframe>
 
+<p>First, one could easily see from the graph that some regions of the US do not have any company listed as having assets of 
+sufficiently high value to be considered in our ranking (see the white state on the maps were no information pops up while
+passing the mouse over the map). 
+The scores of the different states are heterogenous. There is no cleat trend to observe. 
+Furthermore, one could observe that our hypothesis was wrong. The Sate of Idaho has the highest social score according to our 
+criteria, followed by Indiana, Washington and Colorado. The State of California is only in the midfield of our ranking. 
+The States of Texas, Missouri or Nebraska have score bellow 1.5 in our ranking.</p>
+
 <h2 id="discussion">Discussion</h2>
+<p>Considering the low score of States like Texas, Missouri or Nebraska which are renown for the high influence of 
+their conservative party, we can observe a certain trend that the States in the center of the US struggle more to invest 
+in Social Good assets then the states on the Coast.</p>
 
 <h2 id="conclusion">Conclusion</h2>
+<p>It is not just because a given State has many start-ups or a young population that the Companies of a given State will have
+larger amount of their portfolion invested in social good. It could be interesting to compare the plot that we generated with 
+the last elections in the USA in order to see if there is a trend or not.</p>
 </p>
                             <ul class="list-inline item-details">
                                 <li> Client:

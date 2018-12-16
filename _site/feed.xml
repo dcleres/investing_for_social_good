@@ -6,8 +6,8 @@
  - Laurence D. Fink, CEO BlackRock</description>
     <link>http://localhost:4000/investing_for_social_good//</link>
     <atom:link href="http://localhost:4000/investing_for_social_good//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Dec 2018 16:38:25 +0100</pubDate>
-    <lastBuildDate>Sun, 16 Dec 2018 16:38:25 +0100</lastBuildDate>
+    <pubDate>Sun, 16 Dec 2018 17:02:08 +0100</pubDate>
+    <lastBuildDate>Sun, 16 Dec 2018 17:02:08 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -238,9 +238,20 @@ Just capital ranking is one thing. This metrics is complex and tries to take int
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
+&lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~lesimplen/1.embed&quot;&gt;&lt;/iframe&gt;
+
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 
+&lt;p&gt;Unfortunatly, in this sentiment analysis, some bias can be highlighted.
+First of all, with the twitter dataset consisted of the tweet from 2017 we wanted to gives a indication of the public opinion per compagnies/investors. Therefore, we did not need to take the data from everyday. It was decided that it would be wiser and sufficient to take 10-days samples through the year 2017. This made the calculation feasible in Pandas. Since we were looking for information about investors and companies in the USA, we decided to only look at the tweet in English. This reduces the number of tweet per day by roughly 70% the majority of the Tweet are written in the mother tongue of the user (Chinese, Japanese, German, …). All theses assumptions can create bias.
+Moreover, to link tweets and and compagnies/investors names, we search in tweets text and tags the name of the corresponding actors. This method makes senses but as language is a really complex process with a lot of possibilities, some tweets corresponding to one categorical compagny/investor could have not being linked.
+To conlude this discussion, fastText method gives labels from 1 (negative sentence) to 5 (positive sentence) which is not a score between -1 and 1. Thus, we decide to add this labels number as integer and do a mean. In fact we choose the mean to penalized well extreme values. This way of creating a score can introduce a bias as the method is not made for that. Scores for actors with one tweet would be less robust than with several tweets.&lt;/p&gt;
+
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;By having all theses potential bias in mind, we could draw conclusion from the analysis of the results.&lt;/p&gt;
+
+&lt;p&gt;A COMPLETER&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/investing_for_social_good//sentiments/2018/12/10/project-3/</link>
@@ -255,22 +266,36 @@ Just capital ranking is one thing. This metrics is complex and tries to take int
         <title>Investment Geography</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to the provious substories. We were able to rank assets according to their “social good” value. All these companies 
+certainly come from different states in the US and we wanted to know if certain regions of the USA have more asseets invested
+in social good project. For instance one could think that innovative regions like California should have higher investments 
+than states which are know for their large amount of conservative people.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt; &lt;a href=&quot;https://www.sec.gov/cgi-bin/browse-edgar?company=&amp;amp;CIK=&amp;amp;type=13F&amp;amp;owner=include&amp;amp;count=40&amp;amp;action=getcurrent&quot;&gt;SEC asset manager portfolios&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
 &lt;p&gt;Where are the most ethical assets?&lt;/p&gt;
 
-&lt;h2 id=&quot;libraries--methods&quot;&gt;Libraries &amp;amp; Methods&lt;/h2&gt;
-
-&lt;h4 id=&quot;choices-mades&quot;&gt;Choices Mades&lt;/h4&gt;
-
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~dcleres/21.embed&quot;&gt;&lt;/iframe&gt;
 
+&lt;p&gt;First, one could easily see from the graph that some regions of the US do not have any company listed as having assets of 
+sufficiently high value to be considered in our ranking (see the white state on the maps were no information pops up while
+passing the mouse over the map). 
+The scores of the different states are heterogenous. There is no cleat trend to observe. 
+Furthermore, one could observe that our hypothesis was wrong. The Sate of Idaho has the highest social score according to our 
+criteria, followed by Indiana, Washington and Colorado. The State of California is only in the midfield of our ranking. 
+The States of Texas, Missouri or Nebraska have score bellow 1.5 in our ranking.&lt;/p&gt;
+
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
+&lt;p&gt;Considering the low score of States like Texas, Missouri or Nebraska which are renown for the high influence of 
+their conservative party, we can observe a certain trend that the States in the center of the US struggle more to invest 
+in Social Good assets then the states on the Coast.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It is not just because a given State has many start-ups or a young population that the Companies of a given State will have
+larger amount of their portfolion invested in social good. It could be interesting to compare the plot that we generated with 
+the last elections in the USA in order to see if there is a trend or not.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/investing_for_social_good//geography/2018/12/01/project-6/</link>

@@ -17,20 +17,33 @@ description: Applying a geographic lens to the fund performance scores is import
 
 ## Introduction
 
-**Used Dataset:**
+Thanks to the provious substories. We were able to rank assets according to their "social good" value. All these companies 
+certainly come from different states in the US and we wanted to know if certain regions of the USA have more asseets invested
+in social good project. For instance one could think that innovative regions like California should have higher investments 
+than states which are know for their large amount of conservative people.
+
+**Used Dataset:** [SEC asset manager portfolios](https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=13F&owner=include&count=40&action=getcurrent)
 
 ## Research Question
 Where are the most ethical assets? 
  
-
-## Libraries & Methods 
-
-#### Choices Mades 
-
 ## Results 
-
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~dcleres/21.embed"></iframe>
 
+First, one could easily see from the graph that some regions of the US do not have any company listed as having assets of 
+sufficiently high value to be considered in our ranking (see the white state on the maps were no information pops up while
+passing the mouse over the map). 
+The scores of the different states are heterogeneous. There is no cleat trend to observe. 
+Furthermore, one could observe that our hypothesis was wrong. The Sate of Idaho has the highest social score according to our 
+criteria, followed by Indiana, Washington and Colorado. The State of California is only in the midfield of our ranking. 
+The States of Texas, Missouri or Nebraska have score bellow 1.5 in our ranking. 
+
 ## Discussion 
+Considering the low score of States like Texas, Missouri or Nebraska which are renown for the high influence of 
+their conservative party, we can observe a certain trend that the States in the center of the US struggle more to invest 
+in Social Good assets then the states on the Coast. 
 
 ## Conclusion
+It is not just because a given State has many start-ups or a young population that the Companies of a given State will have
+larger amount of their portfolio invested in social good. It could be interesting to compare the plot that we generated with 
+the last elections in the USA in order to see if there is a trend or not. 
