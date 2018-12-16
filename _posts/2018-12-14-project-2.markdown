@@ -46,18 +46,20 @@ The heatmap follows an identical format to the previous heatmap, and shows the m
 ## Discussion 
 
 ### High Impact Stock Popularity Observations
-- Technology companies, as an industry category, are the most popular “ethical” investments held by asset managers. A large number of stocks shown in this plot represent technology companies, including Apple (APPL) with a social impact score of 59.97005 and 1181 large asset manager investors, and Microsoft (MSFT) with a social impact score of 68.55428 and 948 large asset manager investors. 
-- Blue Chip stocks (stocks with a history of reliable returns that are highly trusted by the larger investment industry) such as Johnson & Johnson (JNJ) with a social impact score of 59.94658 and 833 large asset manager investors, and Nike (NKE) also appear. 
-- Even with a range of stock social impact scores from 53 to 70, few stocks have scores higher than 63.
+
+We can see that **technology companies**, as an industry category, are the most popular “ethical” investments held by asset managers. A large number of stocks shown in the *Popularity of High Social Impact Stocks* plot represent technology companies, including Apple (APPL) with a social impact score of 59.97005 and 1181 large asset manager investors, and Microsoft (MSFT) with a social impact score of 68.55428 and 948 large asset manager investors. 
+
+Another popular type of high impact stock are Blue Chip stocks (stocks with a history of reliable returns that are highly trusted by the larger investment industry) such as Johnson & Johnson (JNJ) with a social impact score of 59.94658 and 833 large asset manager investors, and Nike (NKE) also appear. 
+
+We also notice that there is an uneven distribution of stocks within the highest social impact stocks. Although the top 10% of social impact stocks have social impact scores ranging from 53 to 70, few stocks exist in the upper half of this range, with scores higher than 63 points.
 
 ### Low Impact Stock Popularity Observations
-- Companies that employ large, less educated labour forces are the most popular "unethical" investments held by asset managers. A large number of stocks show in this plot represent manufacturing and retail companies, including Tesla (TSLA) with a score of 45.05744 and 66 large asset manager investors, Goodyear Tire and Rubber Company (GT) with a score of 45.96831 and 15 large asset manager investors, and TJX Companies (TJX) with a score of 44.58723 and 67 large asset manager investors.
-- Blue Chip stocks (stocks with a history of reliable returns that are highly trusted by the larger investment industry) such as Sourthern Co (SO) with a social impact score of 44.58723 and 32 large asset manager investors, and Stryker Corporation (SYK) also appear. 
-- Large asset manager investors in general hold far fewer stocks in this category
-	- Each stock has a lower number of investors
-	- There are also less stocks displayed compared to the top ethical stocks
-- Many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors
+We can see that **companies employing large, less educated labour forces** are the most popular "unethical" investments held by asset managers. As shown in the *Popularity of Low Social Impact Stocks* plot, these include a large number of manufacturing and retail companies, including Tesla (TSLA) with a score of 45.05744 and 66 large asset manager investors, Goodyear Tire and Rubber Company (GT) with a score of 45.96831 and 15 large asset manager investors, and TJX Companies (TJX) with a score of 44.58723 and 67 large asset manager investors.
+
+Similar to the *Popularity of High Social Impact Stocks* plot, Blue Chip stocks once again appear. These include stocks such as Sourthern Co (SO) with a social impact score of 44.58723 and 32 large asset manager investors, and Stryker Corporation (SYK).
+
+We notice that large asset manager investors in general hold far fewer stocks in this category, with each stock individual stock having lower numbers of investors. There are also less stocks displayed in the *Popularity of Low Social Impact Stocks* plot compared to the *Popularity of High Social Impact Stocks* plot because many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors. 
 
 ## Conclusion
 
-The most popular "ethical" investments are technology companies, with the most popular "unethical" investments being companies that employ large, uneducated labour forces such as manufacturing and retail companies. Blue Chip stocks also appear widely in both high and low impact stock lists.
+The most popular "ethical" investments are technology companies, with the most popular "unethical" investments being companies that employ large, uneducated labour forces such as manufacturing and retail companies. Blue Chip stocks also appear widely in both high and low impact stock lists. We observe, as an overall pattern, that large asset manager investors hold greater numbers of high impact stocks. However, we acknowledge that the technology companies that dominate the rankings of high social impact stocks have also dominated the financial markets in terms of returns on investment. Thus, an investor could easily end up selecting a portfolio with more high social impact investments simply based on looking for stocks with high historical financial growth - technology companies such as Amazon and Apple. 
