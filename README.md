@@ -13,7 +13,7 @@ Furthermore, it could be interesting to correlate the greater public's interest 
 - What asset managers have the portfolios with the greatest/least social impact?
 - What is the great public's opinion regarding the companies that held many investments in social good versus those who do not invest in social good? 
   - How to make a ranking of “public opinion” regarding a company?
-- Was there a transition toward investing more into social good then into other projects? If yes, when did it happen? [Mike]
+- Was there a transition toward investing more into social good then into other projects? If yes, when did it happen?
 - Can we extend the project to other countries in other to build a global social good investment chart? 
 
 # Dataset
