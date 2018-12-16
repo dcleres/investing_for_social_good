@@ -6,8 +6,8 @@
  - Laurence D. Fink, CEO BlackRock</description>
     <link>http://localhost:4000/investing_for_social_good//</link>
     <atom:link href="http://localhost:4000/investing_for_social_good//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Dec 2018 17:12:52 +0100</pubDate>
-    <lastBuildDate>Sun, 16 Dec 2018 17:12:52 +0100</lastBuildDate>
+    <pubDate>Sun, 16 Dec 2018 20:15:26 +0100</pubDate>
+    <lastBuildDate>Sun, 16 Dec 2018 20:15:26 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -24,17 +24,35 @@
 
 &lt;h4 id=&quot;general-overview-and-cleaning&quot;&gt;General Overview and Cleaning&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&quot;/investing_for_social_good//img/portfolio/a.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;
-&lt;img src=&quot;/investing_for_social_good//img/portfolio/b.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;
-&lt;img src=&quot;/investing_for_social_good//img/portfolio/c.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;
-&lt;img src=&quot;/investing_for_social_good//img/portfolio/d.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;
-&lt;img src=&quot;/investing_for_social_good//img/portfolio/e.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/investing_for_social_good//img/portfolio/a.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the histogram above, we observe the frequency at which US dollars (in millions) are invested per investor. Investors in this context, as in the rest of this data story, are large asset manager investors with holdings of at least $100M. We can see an overwhelming preference by these investors to invest under one million dollars. The frequency of investments over one million dollars is difficult to see, so we remove outliers before continuing to explore this data in the graphs below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/investing_for_social_good//img/portfolio/b.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the boxplot above, we observe the distribution of US dollars invested per investor, after the removal of outliers. We can see that the median investment is still under one million dollars; however, we can see that the interquartile range of the boxplot ranges from around half a million to three million dollars. This means that  investments of less than one million dollars are as common as those from half a million to three million dollars. Thus, by removing outliers we can see there is still a significant number of investments being made using amounts of half a million to three million dollars.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/investing_for_social_good//img/portfolio/c.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the histogram above, we observe the frequency at which US dollars (in millions) are invested per investor, with outliers removed. Unlike in the previous histogram above, we can more clearly see the frequency at which amounts of US dollars greater than one million dollars are invested. we see that as the amount in US dollars increases, the frequency at which those amounts are invested tends to decrease. The frequency of US dolar amounts invested goes up slightly at five million and six to seven million dollars, but does not surpass the frequency of US dollar amounts invested at three million dollars.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/investing_for_social_good//img/portfolio/d.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the boxplot above, we can see the distribution of Just Capital company social impact scores. We see, in the overall social impact score, that most companies have a score of between 40 and 60, out of 100 points, with the median being 50 points. Observe that outliers in the overall company social impact score exist above 60 points, and that conponent social impact scores (customer, environment, jobs, etc social impact component scores that feed into the overall social impact score) also have medians of around 50 points.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/investing_for_social_good//img/portfolio/e.png&quot; alt=&quot;Logo Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the histogram above, we can see the frequncy of weighted portfolio-wide social impact scores per investor.&lt;/p&gt;
+
+&lt;p&gt;The weighted portfolio social score per investor is created by aggregating the individual scores of investments held by an investor on a weighted average basis according to the portfolio percentage of each investment. For example, an investor with a portfolio of stock A and stock B, where the investor’s portfolio is 40% stock A and 60% stock B, and stock A and B have social impact scores of 50 and 60 would have a weighted portfolio social impact score of 56 (40% x 50 + 60% x 60 = 56).&lt;/p&gt;
+
+&lt;p&gt;The histogram shows that most investor portfolios have a social impact score of 14 points. The frequency of investor portfolios with scores of more than 14 points drops significantly (by almost half at 15 points), and continues to drop in a linear fashion until 45 points. Thus, large asset management investors have predominantly low portfolio social impact scores.&lt;/p&gt;
 
 &lt;h4 id=&quot;2017-investor-portfolios-by-social-impact&quot;&gt;2017 Investor Portfolios by Social Impact&lt;/h4&gt;
 
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~mike.jiao/10.embed&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;We can observe in the 2-D Scatterplot above, focused on 2017 data, the variation in Investor Portfolio social impact amoung large ($100M+) asset managers. We see that the distribution of portfolio social impact is bimodal, with most investors having very low portfolio social impact scores (below 10 points), followed by a second, smaller group with very high scores (above 30 points). This suggests that there is no clear consensus amoung the asset management community in the need for them to implement social impact maximizing or minimizing portfolio investment strategies.&lt;/p&gt;
+&lt;p&gt;We can observe in the 2-D Scatterplot above, focused on 2017 data, the variation in Investor Portfolio social impact amoung specific large ($100M+) asset managers. We can hover our mouse over specific data points to identify specific investors and their scores. We see from the distribution of portfolio social impact scores that  most investors have very low portfolio social impact scores (around 14 points). This is followed by smaller groups with scores higher than 20 points. This suggests that there is no clear consensus amoung the asset management community in the need for them to implement social impact maximizing or minimizing portfolio investment strategies.&lt;/p&gt;
 
 &lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
 &lt;p&gt;We see that, for example, the lowest scoring investor, Akanthos Capital Management, is focused on a very specialized investment strategy (event-driven investing), which operates independently of long-term social trends such as societal pressures to be more socially impactful.&lt;/p&gt;
@@ -60,6 +78,23 @@
 
 &lt;p&gt;This data substory aims to understand the types of investments asset management investors favor, and to examine the motivations behind asset manager’s investments into the best and worst social impact investments.&lt;/p&gt;
 
+&lt;p&gt;###The Ethical Puzzle&lt;/p&gt;
+
+&lt;p&gt;Although the definition of ethical investing could be stated as simply purchasing investments from issuers who act ethically, 
+investors who seek to achieve this must first establish a set of criteria that can be used to determine what actions and 
+practices are considered ethical to them. For example, the Bible and other religious books provide rules and principles for
+ people to live by, and those who believe what those books say use them as guides to evaluate things in the world around them. 
+ Religious texts and other moral teachings, however, do not always provide crystal-clear guidance for practical investment decisions.
+Although creating or finding the ethical criteria to use as the basis for evaluating investments may often be relatively simple, 
+effectively applying that criteria to actual investment choices can be more difficult. For instance, the Bible condemns 
+drunkenness in several passages, but does this then make it unconditionally wrong to purchase securities issued by makers of 
+alcoholic beverages? Since not all consumers of alcohol get drunk, then the investor will have to decide for him or herself 
+whether this investment truly supports immoral behavior. Virtually all issuers of securities or investments most likely do 
+something that at least a substantial percentage of their investors do not approve of (how many investors who buy Treasury 
+securities approve of everything that is done by the government?). Of course, this begs the question of which practices and 
+policies are tolerable for investors and which are not.&lt;/p&gt;
+
+&lt;h3 id=&quot;assets&quot;&gt;Assets&lt;/h3&gt;
 &lt;p&gt;According to the International Financial Reporting Standards (IFRS), a &lt;strong&gt;financial asset&lt;/strong&gt; can be:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Cash or cash equivalent,&lt;/li&gt;
@@ -108,8 +143,9 @@ Although the top 10% of Just Capital Social Impact Scores corresponds to 87 stoc
 &lt;p&gt;We notice that large asset manager investors in general hold far fewer stocks in this category, with each stock individual stock having lower numbers of investors. There are also less stocks displayed in the &lt;em&gt;Popularity of Low Social Impact Stocks&lt;/em&gt; plot compared to the &lt;em&gt;Popularity of High Social Impact Stocks&lt;/em&gt; plot because many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;The most popular “ethical” investments are technology companies, with the most popular “unethical” investments being companies that employ large, uneducated labour forces such as manufacturing and retail companies. Blue Chip stocks also appear widely in both high and low impact stock lists. We observe, as an overall pattern, that large asset manager investors hold greater numbers of high impact stocks. However, we acknowledge that the technology companies that dominate the rankings of high social impact stocks have also dominated the financial markets in terms of returns on investment. Thus, an investor could easily end up selecting a portfolio with more high social impact investments simply based on looking for stocks with high historical financial growth - technology companies such as Amazon and Apple.&lt;/p&gt;
+&lt;p&gt;Although the values and beliefs that guide ethically minded investors differ somewhat for each person, there are several 
+specific areas where ethics play a major role. According to our results the most popular “ethical” investments are technology 
+companies, with the most popular “unethical” investments being companies that employ large, uneducated labour forces such as manufacturing and retail companies. Blue Chip stocks also appear widely in both high and low impact stock lists. We observe, as an overall pattern, that large asset manager investors hold greater numbers of high impact stocks. However, we acknowledge that the technology companies that dominate the rankings of high social impact stocks have also dominated the financial markets in terms of returns on investment. Thus, an investor could easily end up selecting a portfolio with more high social impact investments simply based on looking for stocks with high historical financial growth - technology companies such as Amazon and Apple.&lt;/p&gt;
 </description>
         <pubDate>Fri, 14 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/investing_for_social_good//assets/2018/12/14/project-2/</link>
@@ -178,74 +214,10 @@ Although the top 10% of Just Capital Social Impact Scores corresponds to 87 stoc
       </item>
     
       <item>
-        <title>The Ethics of Investing</title>
-        <description>&lt;h1 id=&quot;introduction-to-the-ethical-puzzle&quot;&gt;Introduction to the Ethical Puzzle&lt;/h1&gt;
-&lt;p&gt;Although the definition of ethical investing could be stated as simply purchasing investments from issuers who act ethically, 
-investors who seek to achieve this must first establish a set of criteria that can be used to determine what actions and 
-practices are considered ethical to them. For example, the Bible and other religious books provide rules and principles for
- people to live by, and those who believe what those books say use them as guides to evaluate things in the world around them. 
- Religious texts and other moral teachings, however, do not always provide crystal-clear guidance for practical investment decisions.
-Although creating or finding the ethical criteria to use as the basis for evaluating investments may often be relatively simple, 
-effectively applying that criteria to actual investment choices can be more difficult. For instance, the Bible condemns 
-drunkenness in several passages, but does this then make it unconditionally wrong to purchase securities issued by makers of 
-alcoholic beverages? Since not all consumers of alcohol get drunk, then the investor will have to decide for him or herself 
-whether this investment truly supports immoral behavior. Virtually all issuers of securities or investments most likely do 
-something that at least a substantial percentage of their investors do not approve of (how many investors who buy Treasury 
-securities approve of everything that is done by the government?). Of course, this begs the question of which practices and 
-policies are tolerable for investors and which are not.&lt;/p&gt;
-
-&lt;p&gt;Ethical Issues
-Although the values and beliefs that guide ethically minded investors differ somewhat for each person, there are several 
-specific areas where ethics play a major role. Some of the more notable issues that investors examine from an ethical standpoint include:&lt;/p&gt;
-
-&lt;p&gt;Winning at Someone Else’s Expense
-Although there will inevitably be both winners and losers in a free-market economy, the issue of how a company wins is a 
-concern to some. Companies that have monopolies in a market or industry can function very efficiently in many respects, 
-but they also effectively prevent any form of healthy business competition, and some investors consider this to be unethical.&lt;/p&gt;
-
-&lt;p&gt;Environmental Responsibility
-Heavy industry such as energy and manufacturing have long been perceived as destroyers of nature and wildlife with their
- pollution and decimation of forests, oceans, lakes and rivers. Ethical investors favor companies that replace what they
-  take from the earth and adhere to governmental standards for emissions.&lt;/p&gt;
-
-&lt;p&gt;Abortion and Stem-Cell Research
-Companies that profit from certain medical procedures or types of research are often considered to be unethical or even 
-criminal by those in the Judeo-Christian community.&lt;/p&gt;
-
-&lt;p&gt;“Sin” Industries
-Although the concept of an industry being sinful is obviously somewhat subjective, a portion of the investing public 
-still considers makers of alcoholic beverages, tobacco companies, casinos and the pornography industry to be taboo. The 
-tobacco industry, for instance, has long been accused of targeting teenagers as customers and making its products as addictive as possible in order to fuel sales. While sin industries have made efforts to raise public awareness of the dangers of misusing their products and services, some investors may choose to avoid companies that operate in these industries.&lt;/p&gt;
-
-&lt;p&gt;Socially Conscious Investing
-Many investors who seek to avoid what they consider to be unethical investments look to vehicles such as socially 
-conscious mutual funds that screen companies according to specific ethically-based criteria. Many such funds are offered 
-by religious denominations such as the Lutheran Brotherhood, which typically avoids investing in any of the “sin” industries listed above and can provide investors with a clear conscience in this area.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Used Dataset:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-</description>
-        <pubDate>Tue, 11 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/investing_for_social_good//ethics/2018/12/11/project-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/investing_for_social_good//ethics/2018/12/11/project-1/</guid>
-        
-        
-        <category>Ethics</category>
-        
-      </item>
-    
-      <item>
         <title>Sentiment Analysis</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;Public opinion is a important criteria to choose a investement. In fact, each investement will be a part of the identity of the inve stor and public opinion could really sustain some investement and criticize others.
+&lt;p&gt;Public opinion is a important criteria to choose a investment. In fact, each investement will be a part of the identity of the investor and public opinion could really sustain some investment and criticize others.
 It is thus interesting to correlate the greater public’s interest into social good projects expressed on social media platforms such as Twitter and Facebook, or news platforms, with the actual investments that are done. 
 To add the public opinion part, sentiment analysis was done on tweet from 2017. In fact, sentiment analysis is contextual mining of text which identifies and extracts subjective information in source material, and helping a business to understand the social sentiment of their brand, product or service while monitoring online conversations. In this part of the data story, the text classifier process tool was used to analyses an incoming message and tells whether the underlying sentiment is positive, negative our neutral.&lt;/p&gt;
 

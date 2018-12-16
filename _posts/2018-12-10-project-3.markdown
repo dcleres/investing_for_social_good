@@ -16,7 +16,7 @@ description: During this section, you will get insight on how it was possible to
 
 ## Introduction
 
-Public opinion is a important criteria to choose a investment. In fact, each investement will be a part of the identity of the inve stor and public opinion could really sustain some investment and criticize others.
+Public opinion is a important criteria to choose a investment. In fact, each investement will be a part of the identity of the investor and public opinion could really sustain some investment and criticize others.
 It is thus interesting to correlate the greater public's interest into social good projects expressed on social media platforms such as Twitter and Facebook, or news platforms, with the actual investments that are done. 
 To add the public opinion part, sentiment analysis was done on tweet from 2017. In fact, sentiment analysis is contextual mining of text which identifies and extracts subjective information in source material, and helping a business to understand the social sentiment of their brand, product or service while monitoring online conversations. In this part of the data story, the text classifier process tool was used to analyses an incoming message and tells whether the underlying sentiment is positive, negative our neutral.
 

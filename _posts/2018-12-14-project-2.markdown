@@ -18,6 +18,23 @@ description: Financial asset is a non-physical asset whose value is derived from
 
 This data substory aims to understand the types of investments asset management investors favor, and to examine the motivations behind asset manager's investments into the best and worst social impact investments.
 
+###The Ethical Puzzle
+
+Although the definition of ethical investing could be stated as simply purchasing investments from issuers who act ethically, 
+investors who seek to achieve this must first establish a set of criteria that can be used to determine what actions and 
+practices are considered ethical to them. For example, the Bible and other religious books provide rules and principles for
+ people to live by, and those who believe what those books say use them as guides to evaluate things in the world around them. 
+ Religious texts and other moral teachings, however, do not always provide crystal-clear guidance for practical investment decisions.
+Although creating or finding the ethical criteria to use as the basis for evaluating investments may often be relatively simple, 
+effectively applying that criteria to actual investment choices can be more difficult. For instance, the Bible condemns 
+drunkenness in several passages, but does this then make it unconditionally wrong to purchase securities issued by makers of 
+alcoholic beverages? Since not all consumers of alcohol get drunk, then the investor will have to decide for him or herself 
+whether this investment truly supports immoral behavior. Virtually all issuers of securities or investments most likely do 
+something that at least a substantial percentage of their investors do not approve of (how many investors who buy Treasury 
+securities approve of everything that is done by the government?). Of course, this begs the question of which practices and 
+policies are tolerable for investors and which are not.
+
+### Assets
 According to the International Financial Reporting Standards (IFRS), a **financial asset** can be:
 - Cash or cash equivalent,
 - Equity instruments of another entity,
@@ -63,5 +80,6 @@ Similar to the *Popularity of High Social Impact Stocks* plot, Blue Chip stocks 
 We notice that large asset manager investors in general hold far fewer stocks in this category, with each stock individual stock having lower numbers of investors. There are also less stocks displayed in the *Popularity of Low Social Impact Stocks* plot compared to the *Popularity of High Social Impact Stocks* plot because many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors. 
 
 ## Conclusion
-
-The most popular "ethical" investments are technology companies, with the most popular "unethical" investments being companies that employ large, uneducated labour forces such as manufacturing and retail companies. Blue Chip stocks also appear widely in both high and low impact stock lists. We observe, as an overall pattern, that large asset manager investors hold greater numbers of high impact stocks. However, we acknowledge that the technology companies that dominate the rankings of high social impact stocks have also dominated the financial markets in terms of returns on investment. Thus, an investor could easily end up selecting a portfolio with more high social impact investments simply based on looking for stocks with high historical financial growth - technology companies such as Amazon and Apple. 
+Although the values and beliefs that guide ethically minded investors differ somewhat for each person, there are several 
+specific areas where ethics play a major role. According to our results the most popular "ethical" investments are technology 
+companies, with the most popular "unethical" investments being companies that employ large, uneducated labour forces such as manufacturing and retail companies. Blue Chip stocks also appear widely in both high and low impact stock lists. We observe, as an overall pattern, that large asset manager investors hold greater numbers of high impact stocks. However, we acknowledge that the technology companies that dominate the rankings of high social impact stocks have also dominated the financial markets in terms of returns on investment. Thus, an investor could easily end up selecting a portfolio with more high social impact investments simply based on looking for stocks with high historical financial growth - technology companies such as Amazon and Apple. 
