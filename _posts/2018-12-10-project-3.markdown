@@ -16,7 +16,7 @@ description: During this section, you will get insight on how it was possible to
 
 ## Introduction
 
-Public opinion is a important criteria to choose a investment. In fact, each investement will be a part of the identity of the investor and public opinion could really sustain some investment and criticize others.
+Public opinion is a important criteria to choose a investement. In fact, each investement will be a part of the identity of the inve stor and public opinion could really sustain some investement and criticize others.
 It is thus interesting to correlate the greater public's interest into social good projects expressed on social media platforms such as Twitter and Facebook, or news platforms, with the actual investments that are done. 
 To add the public opinion part, sentiment analysis was done on tweet from 2017. In fact, sentiment analysis is contextual mining of text which identifies and extracts subjective information in source material, and helping a business to understand the social sentiment of their brand, product or service while monitoring online conversations. In this part of the data story, the text classifier process tool was used to analyses an incoming message and tells whether the underlying sentiment is positive, negative our neutral.
 
@@ -25,24 +25,58 @@ First of all, output of the last part where taken and mix with a new dataset whi
 
 
 ## Research Question 
-How to make a ranking of “public opinion” regarding a company?
-What is the great public's opinion regarding the companies and investors ? 
-Just capital ranking is one thing. This metrics is complex and tries to take into account a high number of variables. But it just capital score correlated with public opinion ? It means that we will try to understand the public’s opinion regarding the companies that held many investments in social good versus those who do not invest in social good?
+- How to make a ranking of “public opinion” regarding a company?
+- What is the great public's opinion regarding the companies and investors ? 
+- Just capital ranking is one thing. This metrics is complex and tries to take into account a high number of variables. But it just capital score correlated with public opinion ? It means that we will try to understand the public’s opinion regarding the companies that held many investments in social good versus those who do not invest in social good?
 
 ## Results 
 
+### Histogram of the different distribution : 
+
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~lesimplen/1.embed"></iframe>
+
+Here is the distribution of the several scores. The first thing we can notice is the huge number of investors with no linked tweet. In fact, we have 80 percent of Null values for investors in opposition to compagnies where we have only 30 percent of Null values. This first observation make sense : in fact, compagnies will be more known by lamba citizens because compagnies are closer to their lifes compare to investors. 
+Then, when you click on the legend to remove all categories with fill null values, data becomes clearer. The Vader score distribution is centered around 0.2 whereas FastText score and total score (mean between Vader and FastText score) are centered around 0.1. It means that the majority of the tweets are neutral with some positive connotations. In fact, scores are normalized between -1 and 1 : -1 means that the tweet in totally negative and + 1 means that the tweet is totally positive. Extreme negative or positive tweets are also present in the distribution, and this observation is also more visible for FastText score. It makes sense that the majortiy of tweets about the actors are neutral because theses corresponding tweet are usually neutral news.
+
+### Scatter plot showing dependency between Just Capital Scores and the mean of Vader and FastText method : 
+
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~lesimplen/3.embed"></iframe>
+
+This graph illustrate the dependency between sentiment analysis score and Just capital score. In fact, the conclusion is that sentiment analysis score is not so correlated with just capital scores.
+
+### Graph analysis :
+Here is some paramter of the graph plot. There are 4887 compagnies/investors linked with 16914 edges in total. The sparsity of the plot is 0.0052 which means that the graph is really dense.
+It contains one huge connected component. The largest component has  2517 nodes accounting for 100 % of the nodes and the longest shortest path between any two actors in the giant component is 7 It's also called the diameter. 
+
+Here is the plot of the Degree distribution plot :
+![download-1](../img/portfolio/degree_plot.png)
+We observe that a small number of actors have a really high degree and that the majority of actors have small degree next to 0. It means that there are few really import actors compare to the others.
+
+To finish this small graph analysis, we calculated the Homophily which is like correlation, but translated into graphs. 
+It means how likely two compagnies that have the same attribute(just_capital_score or sentiment_analysis_score) are linked?
+We found that all homophily coefficient are around 0. In means thaht there is no correlation between factors and nodes.
+
+
+#### Graph plot taking into account the degree and the sentiment analysis score :
+
+![download-1](../img/ecran.png)
+The size of the node is scale in function of the degree of the node. Moreover, the color is given by the different sentiment analysis scores.
 
 
 ## Discussion 
 
+### Bias :
+
 Unfortunatly, in this sentiment analysis, some bias can be highlighted.
 First of all, with the twitter dataset consisted of the tweet from 2017 we wanted to gives a indication of the public opinion per compagnies/investors. Therefore, we did not need to take the data from everyday. It was decided that it would be wiser and sufficient to take 10-days samples through the year 2017. This made the calculation feasible in Pandas. Since we were looking for information about investors and companies in the USA, we decided to only look at the tweet in English. This reduces the number of tweet per day by roughly 70% the majority of the Tweet are written in the mother tongue of the user (Chinese, Japanese, German, ...). All theses assumptions can create bias.
+
 Moreover, to link tweets and and compagnies/investors names, we search in tweets text and tags the name of the corresponding actors. This method makes senses but as language is a really complex process with a lot of possibilities, some tweets corresponding to one categorical compagny/investor could have not being linked.
-To conlude this discussion, fastText method gives labels from 1 (negative sentence) to 5 (positive sentence) which is not a score between -1 and 1. Thus, we decide to add this labels number as integer and do a mean. In fact we choose the mean to penalized well extreme values. This way of creating a score can introduce a bias as the method is not made for that. Scores for actors with one tweet would be less robust than with several tweets.
+
+To conlude this discussion, fastText method gives labels from 1 (negative sentence) to 5 (positive sentence) which is not a score between -1 and 1. Thus, we decide to add this labels number as integer and do a mean. In fact we choose the mean to penalized well extreme values. This way of creating a score can introduce a bias as the method is not made for that. Scores for actors with one tweet would be less robust than with several tweets. 
 
 ## Conclusion
 
-By having all theses potential bias in mind, we could draw conclusion from the analysis of the results.
+As we explained, used tweets linked to investors/compagnies to make a ranking of “public opinion” regarding theses actors.
+Some bias exists, but by kowing them we are able to draw conclusion from the analysis of the results. For exmaple, a lot of investors do not have tweets linked to them. Moreover, we are able to conclude that the majority of theses tweets are neutral with positive connotations.
+From what we saw, we can conclude that public opinion on actors is decorelated from the their social impact. This is not logical. This fact can be explained due to the fact that twitter is not the best social media for finding social information about investors. Perhaps we should have focus on media. We found a small correlation but not high enough to draw another conclusion.
 
-A COMPLETER

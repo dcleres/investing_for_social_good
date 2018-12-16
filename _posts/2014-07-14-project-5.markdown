@@ -15,3 +15,5 @@ description: data available outside the us
 
 
 # Coming Soon 
+
+One huge improvment of our project could be to generalized this stuy to the entire world. To do that, new dataset need to be found and analyse but having the a worldwide view could allows to understand lot more mechanisms behind theses investments.
