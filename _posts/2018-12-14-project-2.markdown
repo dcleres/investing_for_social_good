@@ -16,6 +16,8 @@ description: Financial asset is a non-physical asset whose value is derived from
 
 # Introduction & Definitions 
 
+This data substory aims to understand the types of investments asset management investors favor, and to examine the motivations behind asset manager's investments into the best and worst social impact investments.
+
 According to the International Financial Reporting Standards (IFRS), a **financial asset** can be:
 - Cash or cash equivalent,
 - Equity instruments of another entity,
