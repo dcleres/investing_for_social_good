@@ -35,25 +35,27 @@ According to the International Financial Reporting Standards (IFRS), a **financi
 The heatmap shows the most and least popular “ethical” investments held by asset managers. It shows the number of investors in 2017 for each stock that scored within the top 10% of Just Capital Social Impact stocks, where stocks scoring in the top 10% of Just Capital Social Impact scores are labeled “ethical”. 
 Said slightly differently, the heatmap displays the social impact (scored by Just Capital) of each stock within the top 10% of Just Capital Social Impact Scores, as well as the number of large institutional investors (with at least 100M in US 13F type securities) that own that stock. 
 More popular stocks are represented by lighter colours, whereas less popular stocks are represented with darker colours. 
-Although the top 10% of Just Capital Social Impact Scores corresponds to 87 stocks, only 43 stocks are shown in this heatmap. This is because half of these stocks are not held by any large asset manager investor. 
-Notice that: 
-- Technology companies, as an industry category, are the most popular “ethical” investments held by asset managers. A large number of stocks shown in this plot represent technology companies, including Apple (APPL) with a social impact score of 59.97005 and 1181 large asset manager investors, and Microsoft (MSFT) with a social impact score of 68.55428 and 948 large asset manager investors. 
-- Blue Chip stocks such as Johnson & Johnson (JNJ) with a social impact score of 59.94658 and 833 large asset manager investors, and Nike (NKE) also appear. 
-- Even with a range of stock social impact scores from 53 to 70, few stocks have scores higher than 63
+Although the top 10% of Just Capital Social Impact Scores corresponds to 87 stocks, only 43 stocks are shown in this heatmap. This is because half of these stocks are not held by any large asset manager investor.
+
 
 #### Popularity of Low Social Impact Stocks
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~mike.jiao/14.embed"></iframe>
 
-The heatmap shows the most and least popular “unethical” investments held by asset managers. Correspond to bottom 10% of Just Capital Social Impact Scores. 
-Notice that: 
-- Large asset manager investors in general hold far fewer stocks in this category
-	- each stock has a lower number of investors
-	- there are also less stocks displayed compared to the top ethical stocks
-- Many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors
-- Interesting to find Tesla (TSLA) with a score of 45.05744 and 66 large asset manager investors
-
+The heatmap follows an identical format to the previous heatmap, and shows the most and least popular “unethical” investments held by asset managers. These stocks correspond to bottom 10% of Just Capital Social Impact Scores. 
 
 ## Discussion 
+
+### High Impact Stock Popularity Observations
+- Technology companies, as an industry category, are the most popular “ethical” investments held by asset managers. A large number of stocks shown in this plot represent technology companies, including Apple (APPL) with a social impact score of 59.97005 and 1181 large asset manager investors, and Microsoft (MSFT) with a social impact score of 68.55428 and 948 large asset manager investors. 
+- Blue Chip stocks (stocks with a history of reliable returns that are highly trusted by the larger investment industry) such as Johnson & Johnson (JNJ) with a social impact score of 59.94658 and 833 large asset manager investors, and Nike (NKE) also appear. 
+- Even with a range of stock social impact scores from 53 to 70, few stocks have scores higher than 63.
+
+### Low Impact Stock Popularity Observations
+- Large asset manager investors in general hold far fewer stocks in this category
+	- Each stock has a lower number of investors
+	- There are also less stocks displayed compared to the top ethical stocks
+- Many stocks (80%) in the bottom 10% of Just Capital Social Impact Scores are not held by any large asset manager investors
+- Tesla (TSLA) has a score of 45.05744 and 66 large asset manager investors
 
 ## Conclusion
  
